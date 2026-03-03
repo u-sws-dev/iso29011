@@ -15,3 +15,17 @@ FileSaver.js
 *Copyright © 2016 Eli Grey.
 *https://github.com/eligrey/FileSaver.js/blob/master/LICENSE.md
 --------------------------------------------------------------------------------------*/
+
+jsPDF
+/*!--------------------------------------------------------------------------------------
+*Copyright(c) 2010-2025 James Hall,
+*https://github.com/MrRio/jsPDF
+*Copyright(c) 2015-2025 yWorks GmbH
+*https://www.yworks.com/
+--------------------------------------------------------------------------------------*/
+
+jsPDF-AutoTable
+/*!--------------------------------------------------------------------------------------
+*Copyright (c) 2014 Simon Bengtsson, 
+*https://github.com/simonbengtsson/jspdf-autotable
+--------------------------------------------------------------------------------------*/
