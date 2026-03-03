@@ -1,0 +1,2447 @@
+[
+    {
+        "group": {
+            "reference": "context",
+            "name": "4. Context of the Organisation"
+        },
+        "sections": [
+            {
+                "id": "1",
+                "title": "4.1 Understanding the organization and its context",
+                "requirements": [
+                    {
+                        "notesPrefix": "",
+                        "notes": [
+                            "Business objectives focus on opportunity before risk and describe what the organization wants to achieve, which can be part of the organization’s vision, mission and strategic directions.",
+                            "Understanding the internal context can be facilitated by considering issues related to purpose, values, culture, knowledge and performance of the organization.",
+                            "Understanding the external context can be facilitated by considering issues arising from legal, technological, competitive, market, cultural, social and economic environments, whether international, national, regional or local."
+                        ],
+                        "items": [
+                            "the context of the sector in which it operates",
+                            "the context of the value chain, both external and internal",
+                            "the lifecycle of the organization’s operation(s)",
+                            "its license to operate.",
+                            "the sustainability of the communities in which it operates",
+                            "whether climate change is a relevant issue"
+                        ],
+                        "description": "The organization shall determine external and internal issues that are relevant to its purpose and that affect its ability to achieve the intended result(s) of its operating management system. When determining the external and internal issues, the organization shall consider:"
+                    }
+                ],
+                "ratings": [
+                    {
+                        "state": "Top management recognition that the organization’s context and the issues that affect its ability to achieve its purpose, objectives and obligations should inform the scope and design of the OMS.",
+                        "evidence": [
+                            "Top Management articulates the purpose, context, and key issues for the business",
+                            "Informal approach to the analysis of external and internal issues",
+                            "Limited documentation of purpose, context, and key issues"
+                        ]
+                    },
+                    {
+                        "state": "Processes established to determine the context and issues that affect its ability to achieve its purpose, objectives and obligations to inform the scope and design of the OMS.",
+                        "evidence": [
+                            "Process to determine the context and associated issues and it’s use to inform OMS scope and design proven",
+                            "Analysis within the process includes consideration of 4.1 a-f",
+                            "Process outputs (context and issues) documented in a form suitable to inform determination of OMS scope (4.3), design (4.4), policies (5.2) and planning (6.1)"
+                        ]
+                    },
+                    {
+                        "state": "Context description including relevant external and internal issues are analysed, understood and available to inform the scope and design of the OMS.",
+                        "evidence": [
+                            "Formalised process(es) and tools implemented to analyse external and internal issues",
+                            "Formalised process(es) and tools in place to analyse internal context to identify weaknesses and strengths"
+                        ]
+                    },
+                    {
+                        "state": "Pre-emptively identify and analyse changes in the context and issues to inform the scope and design of the OMS.",
+                        "evidence": [
+                            "Analysis of performance and change in factors (9.1) affects the context and associated issues",
+                            "Processes in place to understand risks and opportunities related to changes in context and issues",
+                            "Evolving context description in response to changes in context and issues"
+                        ]
+                    },
+                    {
+                        "state": "The OMS is a key enabler for transforming the context to benefit the organization, stakeholders, and society.",
+                        "evidence": [
+                            "Leading collaboration arenas or networks with stakeholders",
+                            "Assessment of stakeholder objectives and how external context influences the organization’s objectives",
+                            "Work to actively develop the external context to benefit stakeholders and the Organization",
+                            "Participation in (leads, initiates, supports) initiatives that contribute to realization of United Nations sustainability goals and climate change"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "2",
+                "title": "4.2 Understanding the needs and expectations of stakeholders",
+                "requirements": [
+                    {
+                        "notesPrefix": "The stakeholder management process shall address stakeholder planning and stakeholder monitoring .",
+                        "notes": [
+                            "Relevant stakeholders can have expectations and requirements related to climate change."
+                        ],
+                        "items": [
+                            "the interested parties (stakeholders) that are relevant to the operating management system;",
+                            "the relevant requirements of the stakeholders;",
+                            "which of the requirements will be addressed through the operating management system."
+                        ],
+                        "description": "The organization shall determine:"
+                    }
+                ],
+                "ratings": [
+                    {
+                        "state": "Top Management recognition of the importance of stakeholder perceptions and their expectations and requirements.",
+                        "evidence": [
+                            "Top management articulates the importance of stakeholder engagement and relationships",
+                            "Top management articulates concepts of regulatory and social licence to operate.",
+                            "Management articulates approach to relevant stakeholder identification and analysis of expectations and requirements",
+                            "Management articulates capability gaps in existing stakeholder engagement plans and monitoring processes",
+                            "Expectations and requirements to be addressed by the OMS not defined"
+                        ]
+                    },
+                    {
+                        "state": "Process established for identifying relevant stakeholders and for managing their expectations and requirements.",
+                        "evidence": [
+                            "Process for relevant stakeholder identification established",
+                            "Process defines how to identify and analyse stakeholder expectations and requirements.",
+                            "Process defines approach for determining which expectations and requirements are to be managed through the OMS",
+                            "Stakeholder engagement strategies and performance monitoring processes defined",
+                            "Monitoring processes include techniques to attain feedback and to assess perceptions on fulfilment of expectations and requirements",
+                            "Processes include protocols for using monitoring information to inform revised stakeholder engagement strategies and process improvement to enhance stakeholder perceptions"
+                        ]
+                    },
+                    {
+                        "state": "Stakeholder expectations and requirements and monitoring of these are understood and managed through the OMS.",
+                        "evidence": [
+                            "Process for stakeholder identification and management is effectively deployed",
+                            "Analysis and outputs inform the organization’s risks and opportunities and their treatment",
+                            "Relevant stakeholder expectations and requirements are identified and managed through the OMS",
+                            "Demonstration that stakeholder requirements are used to inform OMS scope (4.3), processes (4.4) and overall business objectives and plans",
+                            "Leadership visible engagement in stakeholder management and effective communication",
+                            "Organization addresses trends and acts on stakeholder feedback to improve processes and performance to meet expectations and requirements"
+                        ]
+                    },
+                    {
+                        "state": "Knowledge of and prioritization of stakeholder expectations and requirements delivers business improvements and enhances stakeholder relationships.",
+                        "evidence": [
+                            "The effectiveness of processes for stakeholder identification and management is monitored and improved when required",
+                            "Stakeholder monitoring activities regularly inform opportunities for improvement",
+                            "Organization engages relevant industry bodies or associations to identify, analyse and adopt good practices on stakeholder identification and management",
+                            "Performance in meeting stakeholder expectations and requirements (9.1) informs corrective actions and process improvement initiatives",
+                            "Measured stakeholder satisfaction rates are constantly improving"
+                        ]
+                    },
+                    {
+                        "state": "Stakeholder expectations and requirements are integral to the evolution of business strategies and objectives and to the design and performance of the OMS.",
+                        "evidence": [
+                            "Mature stakeholder relationships lead to the identification and achievement of new business streams and technologies",
+                            "Stakeholder relationships and agreements lead to mutually beneficial outcomes that enhance the sustainability of the organization, it’s stakeholders and the communities in which it operates",
+                            "Positive trends in Social licence to operate demonstrated e.g. through public domain social media"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "3",
+                "title": "4.3 Determining the scope of the operating management system",
+                "requirements": [
+                    {
+                        "notesPrefix": "The scope shall be available as documented information.",
+                        "notes": [
+                            "The scope and design of the operating management system, including its processes, should be informed by the organization’s business purpose, objectives, current and emerging operations, operating value chain/lifecycle and stakeholder requirements and obligations.",
+                            "Typical lifecycle phases and functional areas for operations are provided in Annex A."
+                        ],
+                        "items": [
+                            "the external and internal issues referred to in 4.1",
+                            "the requirements referred to in 4.2.",
+                            "the operating lifecycles",
+                            "the relevant functional areas"
+                        ],
+                        "description": "The organization shall determine the boundaries and applicability of the operating management system to establish its scope. When determining this scope, the organization shall consider:"
+                    }
+                ],
+                "ratings": [
+                    {
+                        "state": "Top management recognition that the scope and boundaries of the OMS should be informed by the organizational context and issues.",
+                        "evidence": [
+                            "Top management articulates rationale and understanding of the need to consider context and issues when defining OMS scope and boundaries"
+                        ]
+                    },
+                    {
+                        "state": "Processes established for defining and managing OMS scope and boundaries.",
+                        "evidence": [
+                            "Proven approach or process",
+                            "Process inputs include context and issues (outputs of 4.1 and 4.2)",
+                            "Process outputs document the scope and boundaries"
+                        ]
+                    },
+                    {
+                        "state": "OMS scope and boundaries are defined and are aligned with the organization’s objectives, context and associated issues.",
+                        "evidence": [
+                            "Scope and boundaries of the OMS available as documented information",
+                            "The scope and boundaries are traceable to the objectives, context and issues",
+                            "The scope and boundaries identify operating activities delivered using outsourced products and services"
+                        ]
+                    },
+                    {
+                        "state": "Performance evaluation, management review and improvement initiatives inform or are informed by changes to OMS scope and boundaries.",
+                        "evidence": [
+                            "Performance evaluation identifies issues and improvement opportunities that inform changes in OMS scope and boundaries",
+                            "Management review includes decisions to implement changes to OMS scope and boundaries"
+                        ]
+                    },
+                    {
+                        "state": "Agile OMS enables business transition and informs strategic decisions and business objectives.",
+                        "evidence": [
+                            "The decision of strategic change includes consideration of OMS",
+                            "Adapted scope influences external party scopes to optimise business value for the organization and stakeholders"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "4",
+                "title": "4.4 Operating management system",
+                "requirements": [
+                    {
+                        "notesPrefix": "Documented information shall be available to support the operation of its processes and to have confidence that the processes are being carried out as planned. The organization shall define the extent of documented information required to meet relevant stakeholder requirements (see 4.2 and 4.3).",
+                        "notes": [],
+                        "items": [
+                            "determine the inputs required and the outputs expected from these processes",
+                            "determine the sequence and interaction of these processes",
+                            "determine and apply the criteria and methods (including monitoring, measurements and related performance indicators) needed to ensure the effective operation and control of these processes",
+                            "determine the resources needed for these processes and ensure their availability (ref 7.1)",
+                            "assign the responsibilities and authorities for these processes",
+                            "address the risks and opportunities",
+                            "evaluate process suitability and effectiveness and implement improvements to ensure achievement of intended results"
+                        ],
+                        "description": "The organization shall establish, implement, maintain and continually improve an operating management system, including the processes needed and their interactions, in accordance with the requirements of this document. The organization shall determine the processes needed for the operating management system and their application throughout the organization.The organization shall:"
+                    }
+                ],
+                "ratings": [
+                    {
+                        "state": "Top Management recognize the need for a structured approach to establish and maintain OMS.",
+                        "evidence": [
+                            "are informed by the requirements and issues identified in 4.1.and 4.2",
+                            "are designed to enable interdependencies between operating lifecycles and functional objectives and requirements (e.g. quality, health, safety)",
+                            "recognise that aesthetics and user experience of the structure, content and deployment influence the awareness and engagement of people"
+                        ]
+                    },
+                    {
+                        "state": "OMS framework defined, and the development and implementation plan agreed.",
+                        "evidence": [
+                            "Development strategy and resources agreed by Top Management",
+                            "Design, i.e. core elements, processes including interdependencies) and information hierarchy defined",
+                            "Roles and responsibilities for the development and implementation defined",
+                            "Main business processes and process owners defined",
+                            "Development and implementation plan prioritised based on operational opportunities and risks identified"
+                        ]
+                    },
+                    {
+                        "state": "OMS effectively implemented as per the agreed scope and boundaries.",
+                        "evidence": [
+                            "Processes fully implemented and provide governance over development and implementation of operational and functional processes",
+                            "Process controls include control over outsourced processes, products and services",
+                            "Process controls and performance indicators in place and performance reviewed (9.1)",
+                            "Processes revised in response to changes in context, objectives and unplanned process outcomes"
+                        ]
+                    },
+                    {
+                        "state": "OMS processes are informed by and inform business activities, improvements and risk-based decisions.",
+                        "evidence": [
+                            "OMS control and performance indicators are used to inform improvements",
+                            "Improvement effectiveness is monitored and assessed",
+                            "Integration of business tools and OMS processes provides inherent process controls (people independent)",
+                            "Systematic analysis of OMS processes and business performance to identify and drive improvement"
+                        ]
+                    },
+                    {
+                        "state": "OMS agility and scalability enables different operating models to integrate stakeholder perspectives, objectives and capabilities.",
+                        "evidence": [
+                            "Varying operational models demonstrated",
+                            "Designed to cater for different internal and external organizational and business models",
+                            "Due diligence demonstrated for significant changes and innovations to operations",
+                            "Integration of OMS processes between stakeholders",
+                            "Systematic measurement of organization and stakeholder expectations and obligations"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "group": {
+            "reference": "leadership",
+            "name": "5. Leadership"
+        },
+        "sections": [
+            {
+                "id": "5",
+                "title": "5.1 Leadership and commitment",
+                "requirements": [
+                    {
+                        "notesPrefix": "",
+                        "notes": [
+                            "Reference to “business” in this context can be interpreted broadly to mean those activities that are core to the purposes of the organization’s existence."
+                        ],
+                        "items": [
+                            "ensuring that the organization’s policy and objectives are established and are consistent with the strategic direction of the organization",
+                            "ensuring the integration of the operating management system requirements into the organization’s business processes",
+                            "ensuring that the resources needed for the operating management system are available",
+                            "communicating the importance of effective operating management and of conforming to the operating management system requirements",
+                            "ensuring that the operating management system achieves its intended result(s)",
+                            "directing and supporting persons to contribute to the effectiveness of the operating management system",
+                            "promoting continual improvement",
+                            "supporting other relevant roles to demonstrate their leadership as it applies to their areas of responsibility"
+                        ],
+                        "description": "Top management shall demonstrate leadership and commitment with respect to the operating management system abd license to operate by:"
+                    },
+                    {
+                        "notesPrefix": "",
+                        "notes": [],
+                        "items": [
+                            "the risks and opportunities that can affect license to operate and the ability to enhance stakeholder satisfaction are determined and addressed",
+                            "applicable statutory, regulatory and sustainability requirements are determined, understood and met",
+                            "stakeholder satisfaction is enhanced"
+                        ],
+                        "description": "Top management shall demonstrate leadership and commitment with respect to license to operate by ensuring that:"
+                    }
+                ],
+                "ratings": [
+                    {
+                        "state": "Top Management is aware of their obligations to influence the OMS and for establishing strategies, objectives and resources for OMS development.",
+                        "evidence": [
+                            "Management articulates leadership requirements and the role of effective management systems as enablers of business objectives",
+                            "People awareness of Top Management OMS aspirations",
+                            "Leadership principles and Top Management roles reflected in development strategies and allocated resources",
+                            "Top management articulates the importance of an OMS in support of licence-to-operate and achieving stakeholder satisfaction"
+                        ]
+                    },
+                    {
+                        "state": "Management system development strategies and plans endorsed and promoted by Top Management as key enablers of the organization’s strategic direction and obligations.",
+                        "evidence": [
+                            "OMS roles and authorities defined",
+                            "Participation in framing, authorisation and communication of OMS development strategies and plans",
+                            "Confirms OMS development plans meet stakeholder requirements in respect to licence-to-operate",
+                            "Communicate and support plan implementation",
+                            "Reviews development progress and recognises success and implements actions to address risks to achieving plan objectives"
+                        ]
+                    },
+                    {
+                        "state": "Top Management leadership results in people’s awareness of and engagement in OMS implementation.",
+                        "evidence": [
+                            "Participation according to their defined roles",
+                            "Personal performance objectives and performance reviews include performance indicators for OMS responsibilities",
+                            "Promotion of OMS, for example, formal communications, informal engagement, site visits",
+                            "Behaviour recognised by the organization and stakeholders as consistent with leadership principles for an effective OMS",
+                            "Facilitates resolution of escalated issues, including issues that impact licence-to-operate"
+                        ]
+                    },
+                    {
+                        "state": "Top Management leads a culture of sustained improvement consistent with OMS principles and objectives.",
+                        "evidence": [
+                            "Business objectives, strategies and resources establish improvement objectives and measures",
+                            "Top Management participation in improvement and innovation initiatives",
+                            "Top Management encourage and recognise improvement initiative outcomes",
+                            "Top Management lead management review and communicate the outputs and planned actions",
+                            "Engage stakeholders where improvement initiatives influence licence-to-operate"
+                        ]
+                    },
+                    {
+                        "state": "Top Management leads use of OMS to inform strategies, objectives and decisions for significant organization and operational changes and stakeholder relationships.",
+                        "evidence": [
+                            "Top Management advocates identification, framing and execution of significant changes using applicable OMS processes",
+                            "Due diligence in respect to internal and external requirements and obligations demonstrated",
+                            "Associated material risks and opportunities are identified assessed and residual risk agreed consistent with defined authorities",
+                            "Top Management proactively monitors and addresses adverse performance trends against initiative objectives and stakeholder obligations and perceptions"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "6",
+                "title": "5.2 Policy",
+                "requirements": [
+                    {
+                        "notes": [],
+                        "items": [
+                            "is appropriate to the purpose of the organization",
+                            "provides a framework for setting objectives",
+                            "includes a commitment to meet applicable requirements",
+                            "includes a commitment to improvement"
+                        ],
+                        "description": "Top management shall establish policy that:"
+                    },
+                    {
+                        "notes": [],
+                        "items": [
+                            "be available as documented information",
+                            "be communicated within the organization",
+                            "be available to stakeholders, as appropriate."
+                        ],
+                        "description": "The policy shall:"
+                    }
+                ],
+                "ratings": [
+                    {
+                        "state": "Top Management is aware of the need to establish and effectively communicate policies.",
+                        "evidence": [
+                            "Managers can articulate policy principles",
+                            "Business policies and principles are discussed and referenced",
+                            "Policy development and deployment strategy established"
+                        ]
+                    },
+                    {
+                        "state": "Policy management processes aligned with organization values, strategic direction and objectives defined.",
+                        "evidence": [
+                            "Processes defined, authorised and communicated",
+                            "Processes meet the requirements of (5.2 a, b, c & d)",
+                            "Schedule of proposed policies and implementation milestones established"
+                        ]
+                    },
+                    {
+                        "state": "Policies issued, communicated and people awareness and behaviours reflect policy requirements.",
+                        "evidence": [
+                            "Policies defined and deployed to the organization and stakeholders",
+                            "Operating procedures align with policies and expectations (e.g. relationships established in OMS information",
+                            "Measures in place to ascertain awareness levels and conformance",
+                            "Top Management communication and support for policies"
+                        ]
+                    },
+                    {
+                        "state": "Policies inform improvement initiatives and are routinely reviewed and amended in response to changes in context, strategies and stakeholder feedback.",
+                        "evidence": [
+                            "Improvement outcomes related to policy expectations, e.g. with measurable improvement in objective measures demonstrated",
+                            "Periodic reviews and policy improvements demonstrated"
+                        ]
+                    },
+                    {
+                        "state": "Policies lead and establish governance over strategic scope and organizational and operational change initiatives.",
+                        "evidence": [
+                            "Policies mandate innovation and transformation initiatives that align with strategic direction and objectives",
+                            "Innovation and transformation initiatives reflect policy expectations with measurable benefits in line with initiative goals"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "7",
+                "title": "5.3 Roles, responsibilities and authorities",
+                "requirements": [
+                    {
+                        "notes": [],
+                        "items": [
+                            "ensuring that the operating management system conforms to the requirements of this document",
+                            "reporting on the operating performance of the operating management system to top management",
+                            "ensuring the suitability and effectiveness of the operating management system"
+                        ],
+                        "description": "Top management shall ensure that the responsibilities and authorities for relevant roles are assigned and communicated within the organization. Top management shall assign the responsibility and authority for:"
+                    }
+                ],
+                "ratings": [
+                    {
+                        "state": "Top Management committed to developing and maintaining an organization structure, roles, accountabilities and authorities.",
+                        "evidence": [
+                            "Strategies for defining the organization structure and associated roles and authorities available",
+                            "Strategies include specific requirements and accountabilities for OMS development and deployment"
+                        ]
+                    },
+                    {
+                        "state": "Processes established to manage the organizational structure and associated roles, accountabilities and authorities empowering the organization to develop, implement and maintain the structure.",
+                        "evidence": [
+                            "Processes include requirements to issue, review and update the structure and role descriptions including responsibilities, competencies and authorities",
+                            "Structure includes responsibilities and resources for OMS custodianship, implementation and improvement"
+                        ]
+                    },
+                    {
+                        "state": "Planned organizational structure roles and resources implemented and maintained consistent with operational requirements.",
+                        "evidence": [
+                            "Structure communicated and resources allocated consistent with operational plans and competency requirements (7.1.1)",
+                            "Role descriptions and assigned level of authorities communicated and acknowledged",
+                            "Structure, roles and resources subject to routine review and amendment in line with changing operational requirements"
+                        ]
+                    },
+                    {
+                        "state": "Organization structure effectiveness and efficiency is monitored and improved in line with performance and changes in context and strategic intent.",
+                        "evidence": [
+                            "Organizational structure is dynamic reflecting changes in context and strategic direction",
+                            "Metrics implemented to test the level of organizational effectiveness and efficiency",
+                            "Performance outcomes inform changes to organization structure including enabling resources and accountabilities"
+                        ]
+                    },
+                    {
+                        "state": "Organizational structure, roles and responsibilities responsive to emerging context and strategic direction.",
+                        "evidence": [
+                            "Agile organization constantly realigning to the direction and context of the company",
+                            "Personnel challenge and improve the context of their roles to align with strategic direction",
+                            "OMS accountabilities and resources drive the performance and sustainability of the OMS"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "group": {
+            "reference": "planning",
+            "name": "6. Planning"
+        },
+        "sections": [
+            {
+                "id": "8",
+                "title": "6.1 Actions to address risks and opportunities",
+                "requirements": [
+                    {
+                        "notesPrefix": "",
+                        "notes": [],
+                        "items": [
+                            "realize value of resource(s) and asset(s) to achieve business objectives",
+                            "give assurance that the operating management system can achieve its intended result(s)",
+                            "prevent, or reduce, undesired effects",
+                            "achieve improvement.",
+                            "how to  integrate and implement the actions into its operating management system  evaluate the effectiveness of these actions",
+                            "integrate and implement the actions into its operating management system",
+                            "evaluate the effectiveness of these actions"
+                        ],
+                        "description": "When planning for the operating management system, the organization shall consider the issues referred to in 4.1 and the requirements referred to in 4.2 and determine the risks and opportunities that need to be addressed to:"
+                    },
+                    {
+                        "notesPrefix": "Documented information shall be available to support and demonstrate the management of risks and opportunities.",
+                        "notes": [
+                            "See Clause 8 for requirements on the management of risk in the context of the operations."
+                        ],
+                        "items": [
+                            "actions to address these reisks and opportunities including;  defining techniques, tools and their application for risk identification, assessment, prevention and mitigation identifying sources of risk, areas of impacts, events and their causes, and their potential consequences analysing potential risk by determining consequences and their likelihood evaluating risk and develop risk controls applying appropriate risk treatments",
+                            "defining techniques, tools and their application for risk identification, assessment, prevention and mitigation",
+                            "identifying sources of risk, areas of impacts, events and their causes, and their potential consequences",
+                            "analysing potential risk by determining consequences and their likelihood",
+                            "evaluating risk and develop risk controls",
+                            "applying appropriate risk treatments"
+                        ],
+                        "description": "The organization shall plan:"
+                    }
+                ],
+                "ratings": [
+                    {
+                        "state": "Management recognises that risk and opportunities should be considered when establishing the OMS framework, processes, objectives and controls.",
+                        "evidence": [
+                            "Management articulates principal risks and opportunities associated with the operations context (4.1 and 4.2), and that they should be managed through the design of the OMS",
+                            "Management articulates strategies for establishing overarching risk and opportunity management practices as essential elements of the OMS."
+                        ]
+                    },
+                    {
+                        "state": "Risk management processes provide the basis for determining risks and opportunities associated with the context and provides inputs for planning, setting objectives and process controls.",
+                        "evidence": [
+                            "Risk and opportunity management principles defined in policies and expectations",
+                            "Core risk management processes established",
+                            "Management ability to present risk management principles, processes and tools",
+                            "Risk identification and management controls considered during development of core business management processes",
+                            "Criteria defined for escalation of decisions for risks and opportunities"
+                        ]
+                    },
+                    {
+                        "state": "Risk management processes identify and manage risks and opportunities throughout the organization.",
+                        "evidence": [
+                            "Risk and opportunities are systematically registered, assessed and controlled throughout the organization",
+                            "Risk treatment actions implemented and verified",
+                            "Management decisions, including escalation, are informed by analysis of risk and opportunities",
+                            "Business processes embed risk and opportunity assessment",
+                            "Provider risks are shared and managed"
+                        ]
+                    },
+                    {
+                        "state": "Risks and opportunities inform sustained improvement in organization objectives, processes and operational performance.",
+                        "evidence": [
+                            "Improvement proposals initiated to mitigate risks or to realise opportunities",
+                            "Improvement initiatives are subject to analysis of associated risks and opportunities",
+                            "Improvement initiative decisions are subject to a defined delegation of authorities consistent with risk levels"
+                        ]
+                    },
+                    {
+                        "state": "Innovation (step-change) initiative objectives, plans and controls are based on and are responsive to associated risks and opportunities.",
+                        "evidence": [
+                            "Innovation management protocols mandate due diligence for associated organization and stakeholder risks and opportunities",
+                            "Risk and opportunities for the wider external stakeholder context are managed",
+                            "Partner and supply chain risks and opportunities are considered, and responsibility for their management is assigned and verified",
+                            "Performance against initiative (step-change) objectives is measured, analysed and corrective action implemented when necessary"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "9",
+                "title": "6.2 Objectives and planning to achieve them",
+                "requirements": [
+                    {
+                        "notes": [],
+                        "items": [
+                            "be consistent with the operating policy",
+                            "consider risks and opportunities",
+                            "be measurable",
+                            "consider applicable requirements",
+                            "be monitored",
+                            "be communicated to relevant stakeholders",
+                            "be reviewed and updated as appropriate",
+                            "be available as documented information"
+                        ],
+                        "description": "The organization shall establish objectives at relevant functions and levels. The objectives shall:"
+                    },
+                    {
+                        "notes": [],
+                        "items": [
+                            "what will be done",
+                            "what resources will be required",
+                            "who will be responsible",
+                            "when it will be completed",
+                            "how the results will be evaluated",
+                            "method and criteria for decision making and prioritizing of the activities",
+                            "processes and methods to be employed in managing assets over their lifecycles",
+                            "appropriate planning time horizon(s)",
+                            "technical, non-technical and financial implications",
+                            "sustainability implications",
+                            "review period."
+                        ],
+                        "description": "When establishing its objectives, the organization shall consider the requirements of relevant stakeholders and of other financial, technical, legal, regulatory, sustainability and organizational requirements in the operating management planning process. When planning how to achieve its operating objectives, the organization shall determine and document:"
+                    }
+                ],
+                "ratings": [
+                    {
+                        "state": "Management recognises the importance of establishing objectives and plans for their realization,",
+                        "evidence": [
+                            "an understanding of the importance of setting objectives",
+                            "strategies for ensuring objectives established in line with 6.2 a) to h) inform the design and application of the operating management system",
+                            "strategies for establishing plans for achieving objectives",
+                            "gaps in existing planning capabilities"
+                        ]
+                    },
+                    {
+                        "state": "Processes defined for setting objectives and plans for their implementation.",
+                        "evidence": [
+                            "Criteria for setting objectives as process inputs",
+                            "Traceability to associated objectives, risks and opportunities demonstrated",
+                            "Participation and decisions in accordance with applicable responsibilities and authorities",
+                            "Functional and stakeholder interdependencies",
+                            "Resources allocation consistent with planned activities",
+                            "Performance measures defined validate plan implementation effectiveness"
+                        ]
+                    },
+                    {
+                        "state": "Operational plans and performance measures aligned with business objectives implemented.",
+                        "evidence": [
+                            "Planning consistently implemented across the organization",
+                            "Planning outputs traceable to applicable objectives",
+                            "Planning outputs ensure relevant employee and functional involvement in the delivery of objectives",
+                            "Planning outputs address stakeholder expectations and obligations",
+                            "Objectives, plans and associated measures revised in response to performance evaluation and management review; refer Clause 9.0"
+                        ]
+                    },
+                    {
+                        "state": "Objectives and plans inform or are informed by improvement initiatives with associated measures employed to evaluate the value created or protected by improvement initiatives.",
+                        "evidence": [
+                            "Interdependency of new or changed objectives and improvement initiatives demonstrated",
+                            "Value created or protected through improvement initiatives measured against associated objectives",
+                            "Interdependency of objectives and improvement initiatives informed by or inform stakeholder engagement and communication e.g. regulators, organizations, supply chain, communities"
+                        ]
+                    },
+                    {
+                        "state": "Operational planning is agile, proactively responding to and informing emerging business, context, strategies and objectives.",
+                        "evidence": [
+                            "Emerging business strategy objectives are reflected in planning outputs",
+                            "Planning outputs are proactively amended in response to changes to strategies and objectives",
+                            "Stakeholders, partners and suppliers share planning activities, inputs and outputs consistent with their respective objectives and agreements",
+                            "Performance trends reflect planning output contributions to delivery of strategy objectives"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "10",
+                "title": "6.3 Planning of changes",
+                "requirements": [
+                    {
+                        "notesPrefix": "The organization shall assess risks and opportunities associated with planned or unplanned changes, permanent or temporary, that can have an impact on achieving the objectives. The organization shall ensure that such risks and opportunities are managed in accordance with 6.1 and 6.2. Documented information shall be available to support and demonstrate the management of change",
+                        "notes": [],
+                        "items": [
+                            "Context and associated objectives, obligations and requirements referred to in 4.1 and 4.2",
+                            "The operating management system scope, systems and processes referred to in 4.3.and 4.4",
+                            "Organisation and personnel",
+                            "Infrastructure",
+                            "Products and services"
+                        ],
+                        "description": "When the organization determines the need for changes to the operating management system, the changes shall be carried out in a planned manner. The organization shall be prepared for planned and unplanned changes and manage the risks and opportunities resulting from unforeseen consequences from these changes.Management of change shall encompass changes in:"
+                    }
+                ],
+                "ratings": [
+                    {
+                        "state": "Management recognises the risks associated with uncontrolled change and has established strategies to manage change",
+                        "evidence": [
+                            "Top management articulates MoC principles and strategies",
+                            "Management articulates existing MoC processes and associated capability gaps"
+                        ]
+                    },
+                    {
+                        "state": "Management of change processes defined.",
+                        "evidence": [
+                            "Integrated focus on administrative, technical, and organizational change",
+                            "Consideration of associated risks and opportunities",
+                            "Escalation protocols",
+                            "Verification of change implementation and effectiveness"
+                        ]
+                    },
+                    {
+                        "state": "Management of change is effectively implemented for applicable operations.",
+                        "evidence": [
+                            "Management prescribe and verify implementation of MoC processes",
+                            "Risk and opportunity impacts are considered for all changes",
+                            "MoC controls extend to externally sourced processes, products and services",
+                            "Information demonstrates:  clear definition of change, impacts, interdependencies  stakeholder engagement, agreement,  risk and opportunity assessment decision authorities implementation",
+                            "clear definition of change, impacts, interdependencies",
+                            "stakeholder engagement, agreement,",
+                            "risk and opportunity assessment",
+                            "decision authorities",
+                            "implementation"
+                        ]
+                    },
+                    {
+                        "state": "Management of change process effectiveness is assessed and amended in response to changing context, requirements, risks opportunities or trends.",
+                        "evidence": [
+                            "Improvement management processes, refer Clause 10, invoke risk assessment and MoC pre-requisites for implementing proposed process, facility and product improvements",
+                            "Analysis and learning from MoC, including involvement of applicable stakeholders",
+                            "Positive MoC process capability trends demonstrating value protected or realized through MoC"
+                        ]
+                    },
+                    {
+                        "state": "Organization culture embraces Management of Change to facilitate decisions on emerging business, strategies, opportunities and objectives.",
+                        "evidence": [
+                            "Management of change principles are integral to the organisation’s  values and high-level policies",
+                            "The organization and key stakeholders align MoC principles when engaging in step changes",
+                            "Pro-active approach to employ MoC to inform external step change decisions"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "11",
+                "title": "6.4 Planning for contingency, emergency, crisis and business continuity",
+                "requirements": [
+                    {
+                        "notes": [
+                            "See 8.1 and 8.4 for activities required to implement the contingency and emergency plans in response to unplanned events and outcomes."
+                        ],
+                        "items": [
+                            "for eventualities and contingencies and manage those when they occur",
+                            "for emergencies and manage those when they occur",
+                            "for crises and manage those when they occur",
+                            "to ensure business continuity should circumstance require"
+                        ],
+                        "description": "The organization shall, in cooperation with its stakeholders, establish, document and maintain plan(s) to be prepared:"
+                    }
+                ],
+                "ratings": [
+                    {
+                        "state": "Management recognizes the need to identify and be prepared for unplanned events and outcomes.",
+                        "evidence": [
+                            "Top management articulates understanding of operational risks and existing plans, processes and capabilities",
+                            "Top Management demonstrates understanding of associated regulatory obligations and the degree to which the organization conforms with such requirements"
+                        ]
+                    },
+                    {
+                        "state": "Business continuity and emergency response planning processes defined.",
+                        "evidence": [
+                            "Key risks and obligations that may necessitate business continuity or emergency responses identified to inform process development",
+                            "Planning processes, including definition of process inputs, outputs and controls for each risk scenario defined",
+                            "Processes proven against applicable risk scenarios and regulatory requirements"
+                        ]
+                    },
+                    {
+                        "state": "Business continuity and emergency response plans addressing risk exposures and requirements associated with the operations implemented.",
+                        "evidence": [
+                            "Emergency response and business continuity plans, covering all key activities are established and maintained",
+                            "Resources are shared with partners to establish their own emergency response and business continuity plans",
+                            "Providers (suppliers and contractors) are considered in emergency response and business continuity plans",
+                            "Exercises are undertaken with predefined performance indicators to revalidate plans",
+                            "Provider capabilities assessed and mitigation implemented to address capability gaps consistent with prevailing influence"
+                        ]
+                    },
+                    {
+                        "state": "Business continuity and emergency response plans are revised in response to stakeholder feedback, learning from events, and performance evaluation.",
+                        "evidence": [
+                            "Learning from former projects and experience feedback are integrated into reviews of emergency response and business continuity plans",
+                            "Exercise performance trends are analysed and used to improve processes",
+                            "Emergency response and business continuity planning approach is tested through simulating or involving all stakeholders and complex scenarios",
+                            "The organization demonstrates a clear link between organization, technical and administrative changes and the potential associated changes in business continuity or emergency response plans"
+                        ]
+                    },
+                    {
+                        "state": "Organization informs industry practices and integrates stakeholder capabilities when planning for business contingencies and emergencies in opportunities and business decisions.",
+                        "evidence": [
+                            "Case studies demonstrate that the organization is leading the evolution of industry processes, standards and systems for emergency response and business continuity",
+                            "Organization demonstrates interface testing of their business continuity plan with stakeholders",
+                            "Challenge or manage stakeholder response and continuity and interdependency risk and opportunity"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "group": {
+            "reference": "support",
+            "name": "7. Support"
+        },
+        "sections": [
+            {
+                "id": "12",
+                "title": "7.1.1 People resources",
+                "requirements": [
+                    {
+                        "notes": [],
+                        "items": [
+                            "the capacity and competence of, and constraints on, existing internal personnel",
+                            "utilisation of capacity available through stakeholders, partners and external providers",
+                            "people resources required to maintain its operating management system"
+                        ],
+                        "description": "The organisation shall determine and provide the capacity of people necessary for the operation and control of its processes.to achieve operating objectives and obligations. The organisation shall determine and demonstrate the necessary competence of person(s) doing work under its control that affects its operating performance. The organisation shall consider:"
+                    }
+                ],
+                "ratings": [
+                    {
+                        "state": "Management recognizes the importance of people to meet its objectives and is aware of applicable statutory obligations with respect to people management.",
+                        "evidence": [
+                            "Management at different levels articulate the importance of their people for the operation of the business",
+                            "Management awareness of applicable external requirements and legislative obligations with respect to people management"
+                        ]
+                    },
+                    {
+                        "state": "Processes defined for determining and managing the people required to operate the business.",
+                        "evidence": [
+                            "Processes established for people management, including consideration of:  Forecasting, budgeting and resource allocation Required roles and pre-requisite competencies defined People development and remuneration Recruitment, onboarding, deployment and demobilisation",
+                            "Forecasting, budgeting and resource allocation",
+                            "Required roles and pre-requisite competencies defined",
+                            "People development and remuneration",
+                            "Recruitment, onboarding, deployment and demobilisation",
+                            "Processes include consideration of compliance with applicable legislation and contractual obligations"
+                        ]
+                    },
+                    {
+                        "state": "People necessary for the operation and control of the business available and managed in accordance with process requirements and obligations.",
+                        "evidence": [
+                            "Capacities and required competencies, defined and fulfilled, including capacities available through stakeholders, partners and external providers"
+                        ]
+                    },
+                    {
+                        "state": "People management and development process improvements increase people effectiveness and operational performance and control.",
+                        "evidence": [
+                            "People capacity levels (numbers, competencies) responsive to organisational, process and technology change and improvements",
+                            "Performance indicator trends inform opportunities for people development",
+                            "Responsive to changing needs and priorities by adjusting people development and management processes, including processes employed by external providers",
+                            "Increasing satisfaction and productivity through people development and management"
+                        ]
+                    },
+                    {
+                        "state": "Agile (pre-emptive creation of new or changed role capacity and capability to deliver transforming business strategies.",
+                        "evidence": [
+                            "Technology developments, the political landscapes, and markets relevant to business strategies analysed to foresee changes that may have a strategic impact on people capability and capacity",
+                            "New and changing roles are linked to strategic initiatives",
+                            "Transformation changes include transformation of people management and development processes in an agile and sustainable manner"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "13",
+                "title": "7.1.2 Infrastructure",
+                "requirements": [
+                    {
+                        "notesPrefix": "See 8.2 in respect to the acquisition, development and implementation of infrastructure required to meet operating requirements. See 8.3 in respect to the operation and maintenance of the organisation’s infrastructure",
+                        "notes": [],
+                        "items": [
+                            "facilities, buildings and associated utilities",
+                            "equipment, including hardware and software",
+                            "transportation resources",
+                            "Digital technology infrastructure"
+                        ],
+                        "description": "The organization shall determine, provide and maintain the infrastructure necessary for the operation of its processes and to achieve conformity of products and services. Infrastructure can include:"
+                    }
+                ],
+                "ratings": [
+                    {
+                        "state": "Management recognises the importance of infrastructure to meet its objectives and obligations.",
+                        "evidence": [
+                            "Management articulates the infrastructure they maintain to operate their business",
+                            "Management articulates how they acquire and manage infrastructure",
+                            "Management demonstrates an understanding of external requirements and legislative obligations with respect to infrastructure acquisition and management"
+                        ]
+                    },
+                    {
+                        "state": "Infrastructure resources acquisition and management processes defined.",
+                        "evidence": [
+                            "Processes defined for infrastructure resource management provide for the definition of:  Existing infrastructure capabilities Operating Infrastructure resource capability planning Financial resources required to acquire and maintain infrastructure (CAPEX, OPEX) applicable infrastructure legislation, regulations obligations and sustainability objectives",
+                            "Existing infrastructure capabilities",
+                            "Operating Infrastructure resource capability planning",
+                            "Financial resources required to acquire and maintain infrastructure (CAPEX, OPEX)",
+                            "applicable infrastructure legislation, regulations obligations and sustainability objectives"
+                        ]
+                    },
+                    {
+                        "state": "Infrastructure resources required for planned operations to meet business objectives provided and maintained.",
+                        "evidence": [
+                            "Infrastructure acquisition and management processes, including capacity and capability indicators implemented with active management oversight",
+                            "Planned capacities and identified infrastructure are achieved, including the consideration of capacities available through stakeholders, partners and external providers.",
+                            "Controls of operational processes established to identify systematic defects and gaps related to infrastructure management."
+                        ]
+                    },
+                    {
+                        "state": "Infrastructure improvements sustainably increase operational effectiveness and process control.",
+                        "evidence": [
+                            "Performance indicator trends inform opportunities for infrastructure improvements",
+                            "Active management commitment to assess and action potential improvements",
+                            "Positive capacity, reliability and availability trends",
+                            "Early adoption of new infrastructure technologies and solutions"
+                        ]
+                    },
+                    {
+                        "state": "Agile (pre-emptive acquisition, adoption or access to new infrastructure to enable transforming business strategies and objectives.",
+                        "evidence": [
+                            "Research, technology developments, political landscapes, and markets relevant to business strategies analysed to foresee infrastructure changes that may have a strategic impact on capability management",
+                            "Infrastructure designs linked to strategic initiatives, integrating complete life cycles to meet sustainability objectives",
+                            "As the organization transforms, it transforms its infrastructure management and improvement processes in an agile and sustainable manner"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "14",
+                "title": "7.1.3 Environment for the operation of processes",
+                "requirements": [
+                    {
+                        "notesPrefix": "These factors can differ substantially depending on the scope of operations and products and services provided.",
+                        "notes": [],
+                        "items": [
+                            "social (e.g. non-discriminatory, calm, non-confrontational)",
+                            "psychological (e.g. stress-reducing, burnout prevention, emotionally protective)",
+                            "physical (e.g. temperature, heat, humidity, light, airflow, hygiene, noise)"
+                        ],
+                        "description": "The organization shall determine, provide and maintain the environment necessary for the safe and effective operation of its processes and to sustainably achieve business objectives. A suitable environment can be a combination of human and physical factors, such as:"
+                    }
+                ],
+                "ratings": [
+                    {
+                        "state": "Management recognition that operating (social, psychological and physical) environments inform and impact the organization’s ability to achieve its objectives and obligations.",
+                        "evidence": [
+                            "Management articulate the operating environments that influence operating performance",
+                            "Management demonstrate knowledge of external requirements / legislative obligations with respect to operating environments"
+                        ]
+                    },
+                    {
+                        "state": "Processes for the identification and control of operating environments defined.",
+                        "evidence": [
+                            "Policies, procedures and plans developed to define the controls for the operating environment e.g., Human Factors",
+                            "Objectives established with respect to the operating environment",
+                            "Operational planning processes include provisions for identifying operating environment conditions and factors, and for the implementation of appropriate process controls."
+                        ]
+                    },
+                    {
+                        "state": "Operating environments systematically managed.",
+                        "evidence": [
+                            "Management at different levels have defined objectives reflecting operating environment objectives",
+                            "Resources deployed to manage operating environment requirements",
+                            "Measurement and analysis of social, psychological and physical environment indicators e.g. surveys, reviews, trend analysis",
+                            "People and their representatives involved in processes related to operating environments",
+                            "Operating environment requirements extended to providers."
+                        ]
+                    },
+                    {
+                        "state": "Sustained improvement in operational performance realised through improvements in the operating environment",
+                        "evidence": [
+                            "Operating environment requirements and performance inform and are informed by improvement initiatives.",
+                            "Sustained improvement trends in social, psychological and physical environment indicators",
+                            "Operational and stakeholder performance improvements realized through operating environment improvements",
+                            "People engagement and empowerment indicator improvements realized through operating environment improvements",
+                            "Operating environment improvement initiatives extended to stakeholders e.g. partners, contractors"
+                        ]
+                    },
+                    {
+                        "state": "Operating environment principles and aspirations deployed across the organisation’s span of influence.",
+                        "evidence": [
+                            "Operating environment objectives, processes and performance benchmarked using known industry criteria or good practices e.g., UN Sustainability goals",
+                            "Investment and contributions to scientific research and development to learn and enhance the organisation’s and its stakeholder’s operating environment e.g., University collaborations, active role in industry work groups."
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "15",
+                "title": "7.2 Competence",
+                "requirements": [
+                    {
+                        "notesPrefix": "Appropriate documented information shall be available as evidence of competence.",
+                        "notes": [
+                            "Applicable actions can include, for example, the provision of training to, the mentoring of, or the re-assignment of currently employed persons; or the hiring or contracting of competent persons."
+                        ],
+                        "items": [
+                            "Determine the necessary competence of person (s) doing work under its control that affects its operating performance; refer 7.1.1",
+                            "ensure that these persons are competent on the basis of appropriate education, training, or experience",
+                            "where applicable, take actions to develop or acquire the necessary competence, and evaluate the effectiveness of the actions taken",
+                            "validate competency to specific proficiency levels appropriate to the risk associated with the task."
+                        ],
+                        "description": "The organization shall:"
+                    }
+                ],
+                "ratings": [
+                    {
+                        "state": "Management recognizes the importance of its people’s competencies to achieve its objectives and to meet contractual and regulatory obligations.",
+                        "evidence": [
+                            "Management articulates the need for defining and achieving pre-requisite competency requirements",
+                            "Management is aware of statutory and contractual qualification obligations."
+                        ]
+                    },
+                    {
+                        "state": "Processes defined to determine competency requirements, assess existing competencies, and develop new competences.",
+                        "evidence": [
+                            "Process for maintaining regulatory training and qualification records defined",
+                            "Competency definition and assessment process defined, communicated and proven.",
+                            "Training and Development Program defined, resourced and implementation plan established."
+                        ]
+                    },
+                    {
+                        "state": "Competency requirements defined, competencies assessed, effective participation controls and development plans established to redress competency gaps.",
+                        "evidence": [
+                            "Competency requirements defined when required to meet operational objectives, contractual requirements and statutory obligations",
+                            "Provider competency management requirements defined and conformance verified",
+                            "Competency assessment records in place for person(s) doing work under the organisations control",
+                            "Process competency pre-requisite controls demonstrated",
+                            "Training and development plans established to redress competency gaps"
+                        ]
+                    },
+                    {
+                        "state": "Competency requirements, controls and development plans are amended to address emerging risks, lessons and new or improved activity and technology requirements.",
+                        "evidence": [
+                            "Individual development plans, appraisal and performance indicators are aligned with organization objectives",
+                            "Where competency is identified as the root cause of unplanned outcomes or performance trends the related competency requirement or control is revised to redress the risks",
+                            "Competency requirements and controls are established when required to enable process or technology improvements."
+                        ]
+                    },
+                    {
+                        "state": "Agile, pre-emptive, creation of new and changed roles and capability to deliver transforming business strategies.",
+                        "evidence": [
+                            "Technology developments, political landscapes and markets relevant for business strategies analysed to foresee changes that may have a strategic impact on capability management",
+                            "As the organization transforms, it transforms its people management and development processes in an agile and sustainable manner",
+                            "New and changed roles and capabilities contribute to the realisation of strategic initiative objectives"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "16",
+                "title": "7.3 Awareness",
+                "requirements": [
+                    {
+                        "notesPrefix": "Changes in organization’s policy, objectives and operating management plans shall be communicated through the management of change process referred to in 6.4, to internal and external parties (see 7.4).",
+                        "notes": [
+                            "to entry Persons doing work under the organisations control includes external providers; see 8.1"
+                        ],
+                        "items": [
+                            "the operating polcy,",
+                            "their contribution to the effectiveness of the operating management system, including the benefits of improved operating performance",
+                            "the implications of not conforming with the operating management system requirements.",
+                            "the operating objectives and operating management plans",
+                            "their work activities, the associated risks and opportunities and how they relate to each other"
+                        ],
+                        "description": "Persons doing work under the organization’s control, shall be made aware of:"
+                    }
+                ],
+                "ratings": [
+                    {
+                        "state": "Top management recognises the importance of people’s awareness of and engagement with the OMS.",
+                        "evidence": [
+                            "Top management articulates the importance of people awareness and engagement",
+                            "Management demonstrates existing OMS promotion activities and associated capability gaps"
+                        ]
+                    },
+                    {
+                        "state": "OMS learning processes and strategies to influence and assess the level of awareness and engagement defined.",
+                        "evidence": [
+                            "Strategies established to promote awareness and to enable engagement",
+                            "Roles, responsibilities and resources for process implementation established",
+                            "Communication and training processes include; OMS framework, policies and processes, including communication of system changes."
+                        ]
+                    },
+                    {
+                        "state": "People are trained in the OMS framework and policies and the process they employ and levels of awareness and engagement measured.",
+                        "evidence": [
+                            "OMS induction and training programs implemented",
+                            "Customised training delivered to meet specific process needs and competencies",
+                            "Training provided to ensure awareness and adoption of OMS changes",
+                            "Feedback loop to capture and respond to comments and suggestions implemented",
+                            "Measurement of awareness and engagement demonstrated",
+                            "Process and measurement extend to providers where required to maintain control of externally sourced processes, products and services."
+                        ]
+                    },
+                    {
+                        "state": "Effectiveness of management system awareness engagement analysed to identify and implement improvement opportunities.",
+                        "evidence": [
+                            "Monitoring the effectiveness of the processes to increase awareness and engagement",
+                            "Role specific training and awareness program demonstrated",
+                            "Induction and training is a two way process, where people are empowered to raise issues and opportunities",
+                            "Organization measures the level of awareness and is responsive to feedback from relevant stakeholders (9.2)."
+                        ]
+                    },
+                    {
+                        "state": "Organization culture (where awareness and engagement) sustain and enable business strategies and objectives.",
+                        "evidence": [
+                            "Agile induction and training practices responsive to emerging business strategies",
+                            "Emerging business strategies include opportunities to leverage, acquire and apply enabling awareness and engagement practices and technologies",
+                            "Stakeholders are aligned with the awareness culture."
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "17",
+                "title": "7.4 Communication",
+                "requirements": [
+                    {
+                        "notesPrefix": "",
+                        "notes": [],
+                        "items": [
+                            "on what it will communicate",
+                            "when to communicate",
+                            "with whom to communicate",
+                            "how to communicate",
+                            "who communicates",
+                            "communication effectiveness"
+                        ],
+                        "description": "The organization shall determine the internal and external communications relevant to the operating management system, including:"
+                    }
+                ],
+                "ratings": [
+                    {
+                        "state": "Top management recognises the importance of communication.",
+                        "evidence": [
+                            "Top management can articulate the importance of communication",
+                            "Intent is in place to build communication processes",
+                            "Some awareness of communication objectives and governance requirements demonstrated."
+                        ]
+                    },
+                    {
+                        "state": "Communication processes including governing authorities defined.",
+                        "evidence": [
+                            "Defined processes for communicating internally and externally",
+                            "Roles and authorities for communication are defined."
+                        ]
+                    },
+                    {
+                        "state": "Communication processes are implemented and effective.",
+                        "evidence": [
+                            "Records of communication is aligned with communication processes",
+                            "Communication processes adapted to meet different business needs",
+                            "Governing criteria defined (what, when, whom, who)",
+                            "Communication protocols with partners, providers and stakeholders in place",
+                            "Measurement of communication control and effectiveness demonstrated."
+                        ]
+                    },
+                    {
+                        "state": "The effectiveness of communication analysed to identify and implement communication improvement opportunities.",
+                        "evidence": [
+                            "Effectiveness of communication processes monitored to confirm that communications are interpreted and understood as intended",
+                            "Actions to improve the quality of communication in response to feedback from people and external parties demonstrated",
+                            "Demonstrated ability to amend or adopt new communication practices and technologies."
+                        ]
+                    },
+                    {
+                        "state": "Communication strategies employed to manage stakeholder expectations and as key enablers of emerging business opportunities.",
+                        "evidence": [
+                            "Communication is agile and responsive to stakeholder perceptions and emerging business requirements",
+                            "Actively explore opportunities to develop, leverage, acquire and apply new communication practices and technologies",
+                            "Organization engages with stakeholders, partners and suppliers to identify acquire and employ innovative communication solutions to enable realization of strategy objectives."
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "18",
+                "title": "7.5 Documented information",
+                "requirements": [
+                    {
+                        "notesPrefix": "",
+                        "notes": [],
+                        "items": [
+                            "documented information required by this document",
+                            "documented information determined by the organization as being necessary for effective operations",
+                            "documented information necessary to meet stakeholder and customer requirements"
+                        ],
+                        "description": "General: The organization’s operating management system shall include:"
+                    },
+                    {
+                        "notesPrefix": "",
+                        "notes": [],
+                        "items": [
+                            "the size of organization and its type of activities, processes, products and services",
+                            "the complexity of processes and their interactions",
+                            "the competence of persons"
+                        ],
+                        "description": "The extent of documented information can differ from one organization to another due to:"
+                    },
+                    {
+                        "notesPrefix": "",
+                        "notes": [],
+                        "items": [
+                            "identification and description (e.g. a title, date, author, or reference number)",
+                            "format (e.g. language, software version, graphics) and media (e.g. paper, electronic)",
+                            "security classification and associated access controls",
+                            "review and approval for suitability and adequacy"
+                        ],
+                        "description": "Creating and updating documented information: When creating and updating documented information the organization shall ensure appropriate:"
+                    },
+                    {
+                        "notesPrefix": "",
+                        "notes": [],
+                        "items": [
+                            "it is available and suitable for use, where and when it is needed",
+                            "it is adequately protected (e.g. from loss of confidentiality, improper or malicious use, or loss of integrity)"
+                        ],
+                        "description": "Control of documented information - Documented information required by the operating management system shall be controlled to ensure:"
+                    },
+                    {
+                        "notesPrefix": "Documented information of external origin determined by the organization to be necessary for the planning and operations shall be identified, as appropriate, and controlled.",
+                        "notes": [
+                            "Access can imply a decision regarding the permission to view the documented information only, or the permission and authority to view and change the documented information.",
+                            "ISO 30301 provides a framework for records management.",
+                            "ISO 27001 provides a framework for information security management."
+                        ],
+                        "items": [
+                            "distribution, access, retrieval and use",
+                            "storage and preservation, including preservation of legibility",
+                            "control of changes (e.g. version control)",
+                            "retention and disposal"
+                        ],
+                        "description": "For the control of documented information, the organization shall address the following activities, as applicable:"
+                    }
+                ],
+                "ratings": [
+                    {
+                        "state": "Top management recognize the importance of effective management of information resources.",
+                        "evidence": [
+                            "Management at different levels articulate the need to manage and control information",
+                            "Management demonstrates current information management processes and any associated capability gaps."
+                        ]
+                    },
+                    {
+                        "state": "Processes for defining, managing and controlling documented information defined.",
+                        "evidence": [
+                            "Process is defined to create, control, manage and protect internal and external information,",
+                            "Roles are defined to deliver and manage documented information",
+                            "Resources are defined and plans to support deployment of the process in place",
+                            "Information specifications risk based to address business needs."
+                        ]
+                    },
+                    {
+                        "state": "Structured approach for managing and controlling documented information effectively implemented.",
+                        "evidence": [
+                            "Documented information is managed as per defined processes, with clear responsibilities and accountabilities.",
+                            "Process information, input and outputs are defined and subject to appropriate controls.",
+                            "Resources are allocated as planned and adequate to manage the volume and classifications of documented information.",
+                            "Classification and access controls for documented information are effective.",
+                            "Documented information is presented in formats that can be interpreted and used by the intended users.",
+                            "Documented information controls extend to information shared with and by stakeholders and providers."
+                        ]
+                    },
+                    {
+                        "state": "The effectiveness of documented information management processes routinely assessed and actions implemented to address risks and leverage improvement opportunities.",
+                        "evidence": [
+                            "Records of effectiveness checks of the process, including any trends are available and regularly analysed.",
+                            "Performance trends demonstrate responsiveness to issues and improvement opportunities related to documented information",
+                            "Results of checks and controls address improvement opportunities, and these are being considered and actioned with clear evidence."
+                        ]
+                    },
+                    {
+                        "state": "Documented information management processes and practices provide knowledge required to realise long-term strategy and business objectives.",
+                        "evidence": [
+                            "Documented information management practices and tools evolve to integrate technology and digital aspects to improve efficiency of processes.",
+                            "Documented information management practices and tools integrate stakeholder and provider information.",
+                            "Existing systems transform data to information and knowledge to inform decision making",
+                            "Information tools contextualise data and information and constantly inform users and help evolve ways of working."
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "19",
+                "title": "7.6.1 General",
+                "requirements": [
+                    {
+                        "notesPrefix": "Solutions should also enable business case outcomes, particularly with respect to operational performance at lowest lifecycle cost. The processes for science, technology and engineering established by the organization, as well as providers in the case of externally provided services, shall include the applicable design and development controls from a recognized quality management system standard (e.g. ISO 29001).",
+                        "notes": [],
+                        "items": [
+                            "meet intended functional and performance requirements",
+                            "conform to applicable internal and external standards",
+                            "ensure process safety risks are eliminated or mitigated",
+                            "enable safe and efficient manufacturing, fabrication, construction, commissioning, operation and maintenance"
+                        ],
+                        "description": "The organization shall establish, implement and maintain strategies and processes for science, technology and engineering to ensure the performance and integrity of activities, assets, products and services throughout their development and operating lifecycle. Science, technology and engineering strategies and processes shall inform technology solutions that:"
+                    }
+                ],
+                "ratings": [
+                    {
+                        "state": "Top Management recognizes the role of science, technology and engineering capabilities in meeting business objectives.",
+                        "evidence": [
+                            "Management articulate need for strategies leveraging science and technology and engineering",
+                            "Basic capabilities established consistent with existing business requirements",
+                            "Relevant science, technologies and engineering solutions monitored and acquired."
+                        ]
+                    },
+                    {
+                        "state": "Plans established for the development of science, technology and engineering capabilities aligned with business objectives.",
+                        "evidence": [
+                            "Science, technology and engineering strategy established, reflecting business objectives",
+                            "Plan and business case for implementing strategies defined",
+                            "Strategy and plan include provisions for externally sourced engineering services, technologies and engineering",
+                            "Budgets are allocated to deliver the strategy and plan",
+                            "Performance measures including criteria for operational integrity and sustainability defined."
+                        ]
+                    },
+                    {
+                        "state": "Planned science, technology and engineering capabilities implemented.",
+                        "evidence": [
+                            "Science, technology and engineering strategies adopted or adapted throughout the organization",
+                            "Plans for strategy implementation resourced and deployed",
+                            "Planned technology development and acquisition milestones and objectives realised",
+                            "Performance measures analysed and when required actions implemented to address adverse trends."
+                        ]
+                    },
+                    {
+                        "state": "Science, technology and engineering needs and capabilities routinely reassessed and actions implemented to improve existing capabilities and address capability gaps.",
+                        "evidence": [
+                            "Performance evaluation outputs inform review of science, technology and engineering strategies and plans",
+                            "Performance trends demonstrate sustained improvement in science, technology and engineering capabilities",
+                            "Developments in science, technology and engineering are monitored and inform updates to strategies and plans,",
+                            "Evolving plans and strategies leverage externally sourced capabilities (e.g. through partnerships, supply chain and academic institutions)."
+                        ]
+                    },
+                    {
+                        "state": "New and emerging technologies actively pursued as key strategic enablers to the transformation of existing capabilities and the realisation of new business opportunities.",
+                        "evidence": [
+                            "Demonstration of initiatives to lead or sponsor research and development of technologies",
+                            "Acquisitions or partnerships to access new capabilities and technologies",
+                            "Extensive collaboration, benchmarking and influencing of broader industry technology capabilities and sustainability outcomes (beyond organization’s own objectives)",
+                            "Proven case studies of the role of science, technology and engineering in realising new business opportunities and more broadly across the sectors the organization engages."
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "20",
+                "title": "7.6.2 Design lifecycle",
+                "requirements": [
+                    {
+                        "notes": [],
+                        "items": [
+                            "design development in support of opportunities (see 8.2)",
+                            "design support during operations (see 8.3)"
+                        ],
+                        "description": "General: The design lifecycle includes:"
+                    },
+                    {
+                        "notes": [],
+                        "items": [
+                            "design and operating philosophies",
+                            "design data acquisition",
+                            "concept technical feasibility",
+                            "basis of design",
+                            "Process safety including definition of safety critical elements and performance standards",
+                            "front end engineering design",
+                            "detailed design",
+                            "follow-on engineering",
+                            "design close-out and handover"
+                        ],
+                        "description": "Develop the design: The organization shall establish design processes to support opportunities considering:"
+                    },
+                    {
+                        "notes": [],
+                        "items": [
+                            "maintaining the basis of design and design configuration",
+                            "operating to design parameters and integrity envelopes",
+                            "maintenance strategies and plans",
+                            "fitness for service",
+                            "performance measurement and analysis",
+                            "improvement (via management of change)"
+                        ],
+                        "description": "Maintain the design: The organization shall establish design processes to support operations considering:"
+                    }
+                ],
+                "ratings": [
+                    {
+                        "state": "Top management recognises the importance of structured protocols for the management and delivery of science, technology and engineering solutions.",
+                        "evidence": [
+                            "Management articulates the need for a structured approach to the management of science, technology and engineering activities within their operations",
+                            "Basic processes established to manage delivery of engineering solutions consistent with regulatory obligations."
+                        ]
+                    },
+                    {
+                        "state": "Framework for developing and deploying science, technology and engineering capabilities and solutions defined.",
+                        "evidence": [
+                            "Processes for development and deployment of technology defined",
+                            "Processes for engineering established to support opportunity realisation and established operations defined",
+                            "Processes address management and control of outsourced science, technology and engineering services",
+                            "Performance measures defined for 1), 2) and 3)",
+                            "Alignment with recognised quality management system requirements demonstrated."
+                        ]
+                    },
+                    {
+                        "state": "Planned management framework and processes for existing science, technology and engineering activities implemented.",
+                        "evidence": [
+                            "Processes for development and deployment of technology and engineering / design implemented",
+                            "Planned process controls, including review verification and validation of in-process engineering and output solutions demonstrated.",
+                            "Controls extend to outsourced science, technology and engineering services",
+                            "Processes and tools are subject to corrective action when identified as the source of nonconforming process trends or outcomes."
+                        ]
+                    },
+                    {
+                        "state": "Sustained improvements in science, technology and engineering management processes demonstrated.",
+                        "evidence": [
+                            "Internal performance, stakeholder expectations and perceptions and benchmarking analysed to inform improvement initiatives",
+                            "Improved processes, tools and competencies are implemented to realise evolving or new technology capabilities",
+                            "Improvements in processes extend to outsourced science, technology and engineering services",
+                            "Performance measures demonstrate sustained improvement in the suitability and effectiveness of internal and outsourced science, technology and engineering management processes."
+                        ]
+                    },
+                    {
+                        "state": "The processes for science, technology and engineering inform and enable business strategies to leverage new business opportunities.",
+                        "evidence": [
+                            "Demonstrated program of reviews of science, technology and engineering management process capabilities",
+                            "External benchmarking leveraged to inform transformation of science, technology and engineering design processes and tools both within the organization and through contributions to standardisation across the sector",
+                            "Agile development and deployment of new capabilities and technologies in support of business reengineering and new business streams",
+                            "Case studies demonstrating step change in design and development management and standardisation and broader application of design solutions (design one build many)."
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "21",
+                "title": "7.7.1 Externally provided processes, products and services - General",
+                "requirements": [
+                    {
+                        "notesPrefix": "Documented information shall be available that defines strategies, plans and controls for externally provided processes, products and services, and that demonstrate the effectiveness of the activities.",
+                        "notes": [],
+                        "items": [
+                            "the processes, products and services that are to be externally provided",
+                            "the scope and boundaries of the externally provided processes, products and services",
+                            "the interfaces and integration of externally provided processes, products and services with the organization’s own processes, products and services",
+                            "the responsibilities and authorities within the organization for managing the externally provided processes, products and services",
+                            "the risks and opportunities associated with the scope of externally provided processes, products and services and controls to be implemented to assure externally provided products and services remain within the control of the organization and conform with agreed requirements and sustainability obligations",
+                            "process safety and any associated performance standard requirements",
+                            "the processes and scope for sharing of knowledge and information between the organization and its process, product and service provider(s)"
+                        ],
+                        "description": "When the organization uses externally provided processes, products and/or services that can have an impact on the achievement of its objectives, it shall assess the associated risks and opportunities and establish supply chain engagement strategies, plans and controls which assure the mitigation of risks and realization of opportunities. The organization shall determine:"
+                    }
+                ],
+                "ratings": [
+                    {
+                        "state": "Top management recognize the need for and implications of external provided processes, products and services.",
+                        "evidence": [
+                            "Management articulate the organization’s use of external provided processes, products and services",
+                            "Management can describe existing processes and controls including perceptions of capability gaps and associated risks and opportunities"
+                        ]
+                    },
+                    {
+                        "state": "Strategies and processes defined to manage externally provided processes, products or services.",
+                        "evidence": [
+                            "Strategies for supply chain engagement, plans and control defined.",
+                            "Scope for external provided processes, products and services defined",
+                            "Processes for establishing and managing external processes and use of products and services defined",
+                            "Process independencies including risk management related to externally provided processes products and services defined",
+                            "Roles and responsibilities to manage externally provided processes, products and services defined",
+                            "Resources allocated to manage externally provided processes, products and services."
+                        ]
+                    },
+                    {
+                        "state": "Externally provided processes, products and services managed in accordance with defined strategies and processes.",
+                        "evidence": [
+                            "Records demonstrate external processes, use of products and services managed in accordance with defined processes",
+                            "Regular assessment and treatment of provider risks and opportunities",
+                            "The effectiveness of the processes measured and monitored.",
+                            "Provider engagement, and levels of conformity assessment based on associated risks",
+                            "Defined integration between provider and internal systems established."
+                        ]
+                    },
+                    {
+                        "state": "Development of strategies and processes for managing externally provided processes, products or services, is informed by improvement initiatives consistent with associated risks and opportunities.",
+                        "evidence": [
+                            "Risk assessments inform application and improvement of provider management processes.",
+                            "Active engagement in and leveraging of provider improvement initiatives.",
+                            "Contracting strategies are amended in line with changing opportunities and provider performance."
+                        ]
+                    },
+                    {
+                        "state": "Risk-based integration of external providers seen as extension of the organization to leverage business opportunities.",
+                        "evidence": [
+                            "Industry leader in Provider collaboration and partnering strategies",
+                            "Aligned objectives and mutually beneficial rewards",
+                            "Driving standardisation efforts in and across industries"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "22",
+                "title": "7.7.2 Externally provided processes, products and services - Provider capability",
+                "requirements": [
+                    {
+                        "notes": [],
+                        "items": [],
+                        "description": "The organization shall assess providers to ensure that they are capable, competent and have the appropriate controls to deliver the specified requirements. The level of assessment to a specific provider’s scope of supply shall be based on the complexity of the design, history with the provider (i.e. track record), applicable risk assessment output, and proposed extent of externally provided processes, products and services. The organization shall assess external provider performance in meeting specified requirements at planned intervals and adjust the type and extent of the organization’s controls to manage associated risks and opportunities."
+                    }
+                ],
+                "ratings": [
+                    {
+                        "state": "Top management recognizes the need to assess provider capability and associated risks.",
+                        "evidence": [
+                            "Management articulate need to know their providers’ capabilities",
+                            "Management is aware of existing processes and knowledge relating to provider capability and associated gaps and risks."
+                        ]
+                    },
+                    {
+                        "state": "Process defined for assessing provider capability as basis for selecting and subsequently defining controls to be implemented for externally sourced processes, products and services.",
+                        "evidence": [
+                            "Defined processes for assessment of provider capabilities",
+                            "Management articulate need for differentiated supplier assessments but not implemented in processes."
+                        ]
+                    },
+                    {
+                        "state": "Processes for assessment of provider capability implemented and assessment outputs employed to inform provider selection and control decisions.",
+                        "evidence": [
+                            "Defined process implemented consistent with supply chain scopes, complexity and risk",
+                            "Capability assessment records employed to inform, selection of bidders, proposal evaluation and level of controls to be implemented for successful providers",
+                            "Provider assessment records revised based on performance and intelligence regarding organizational changes that may impact capability."
+                        ]
+                    },
+                    {
+                        "state": "Provider capability assessment employed to inform and be informed by contracting strategies, provider relationships and forms of agreements and controls.",
+                        "evidence": [
+                            "Provider capability knowledge employed to capture learning and to inform improvements both internally and by providers",
+                            "Provider capability assessment employed to inform supply chain models and forms of agreements."
+                        ]
+                    },
+                    {
+                        "state": "Knowledge of provider capabilities inform supply chain engagement strategies in support of evolving business development opportunities.",
+                        "evidence": [
+                            "Knowledge of Provider capabilities inform strategic engagement strategies",
+                            "Capability knowledge informs analysis of risks and opportunities as pre-requisite to engaging providers in support of evolving business opportunities",
+                            "Provider relationships provide transparency/openness in the organization’s access to",
+                            "provider capability knowledge."
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "23",
+                "title": "7.7.3 Externally provided processes, products and services - Type and extent of control",
+                "requirements": [
+                    {
+                        "notesPrefix": "",
+                        "notes": [
+                            "The organization can specify supply chain quality management system requirements on the basis of recognized standards in the oil and gas industries including lower carbon energy, such as ISO 9001, ISO 29001, API Spec Q1 or API Spec Q2"
+                        ],
+                        "items": [
+                            "Regulatory and stakeholder compliance",
+                            "the approval of:  product and service technical requirements; methods, processes and equipment; the release of products and services",
+                            "competence, including any required qualification of persons",
+                            "the external providers’ interactions with the organization",
+                            "control and monitoring of the external providers’ performance in delivering the specified requirements to be applied by the organization",
+                            "conformity assessment activities that the organization may perform",
+                            "Management of change",
+                            "Information technology and information delivery requirements"
+                        ],
+                        "description": "Information for external providers: The organization shall agree with external providers the scope and requirements for the processes, products and services to be provided including:"
+                    },
+                    {
+                        "notesPrefix": "",
+                        "notes": [],
+                        "items": [],
+                        "description": "Control of external providers: Prior to commencement of work the organization shall review and agree external provider execution plans, processes and quality control plans. The organisation shall also specify the risk-based conformity assessment activities that they will undertake for incorporation in the provider’s quality control plans The organization shall undertake planned conformity assessment activities during execution of the scope and as a prerequisite to release of externally provided processes, products or services for incorporation in its operations Provider performance in meeting the requirements shall be routinely assessed during execution of the scope. When nonconformance is identified, the organization shall ensure that the provider demonstrates correction of nonconformance and appropriate corrective action is implemented. The level of conformity assessment shall be periodically reviewed and adjusted consistent with risk."
+                    }
+                ],
+                "ratings": [
+                    {
+                        "state": "Top management recognizes the need to define scope and requirements and to assess provider performance and conformity.",
+                        "evidence": [
+                            "Management articulate understanding of contractual forms of agreements and requirements",
+                            "Management can demonstrate existing processes and controls employed to manage provider performance and ensure conformance with requirements."
+                        ]
+                    },
+                    {
+                        "state": "Process defined to specify and agree provider scopes, requirements and controls and to manage provider performance and conformity.",
+                        "evidence": [
+                            "Provider management processes defined including:  Specification of scopes and associated management and technical requirements Risk and criticality assessment as the basis for establishing controls and planning conformity assessment activities Performance assessment and reporting  Analysis and management of nonconformance",
+                            "Specification of scopes and associated management and technical requirements",
+                            "Risk and criticality assessment as the basis for establishing controls and planning conformity assessment activities",
+                            "Performance assessment and reporting",
+                            "Analysis and management of nonconformance",
+                            "Process implementation plan including pre-requisite resources, competencies and performance criteria defined."
+                        ]
+                    },
+                    {
+                        "state": "Provider management processes implemented and control over externally provided processes, products and services demonstrated.",
+                        "evidence": [
+                            "Supply scopes and associated management and technical requirements adequately defined",
+                            "Provider selection informed by capability assessment specific to supply scopes and requirements",
+                            "Conformity assessment activities informed by risk and criticality assessments",
+                            "Conformity verified, validated against requirements and obligations with prerequisite documented information",
+                            "Nonconformance managed and corrected."
+                        ]
+                    },
+                    {
+                        "state": "Sustained provider value creation and protection demonstrated through positive performance and conformance trends.",
+                        "evidence": [
+                            "Provider performance in meeting requirements regularly reviewed with review outputs informing improvement initiatives (internal and external.",
+                            "Conformity assessment controls amended (increased/decreased) in response to performance trends and associated risks",
+                            "Extent of reliance on provider controls reflects conformance performance trends)."
+                        ]
+                    },
+                    {
+                        "state": "Substantial strategic integration of providers in the organization’s operations with delegation of controls consistent with demonstrated provider capabilities and performance.",
+                        "evidence": [
+                            "Strategic agreements establishing provider scope, objectives, controls and performance criteria",
+                            "Providers develop detailed scopes and technical solutions/controls in accordance with overarching principles (e.g. ISO TR 13879, ISO TR 13880)",
+                            "Providers execute and demonstrate conformance with Organization assessment limited to regulatory requirements (e.g. ISO TR 13881)",
+                            "Strategic relationships performance positively benchmarked against best-in-class peers, e.g. aerospace, automative."
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "group": {
+            "reference": "operation",
+            "name": "8. Operations"
+        },
+        "sections": [
+            {
+                "id": "24",
+                "title": "8.1 Operational planning and control",
+                "requirements": [
+                    {
+                        "notes": [],
+                        "items": [
+                            "establishing criteria for the processes",
+                            "implementing control of the processes in accordance with the criteria"
+                        ],
+                        "description": "The organization plan to implement and control the processes needed to meet requirements, and to implement the actions determined in Clause 6 by:"
+                    },
+                    {
+                        "notesPrefix": "Documented information shall be available to the extent necessary to have confidence that the processes have been carried out as planned. The organization shall control planned changes and review the consequences of unintended changes, taking action to mitigate any adverse effects, as necessary (see 6.4). The organization shall ensure that externally provided processes, products or services that are relevant for the operating management system are controlled (see 7.7).",
+                        "notes": [],
+                        "items": [
+                            "scope (activities)",
+                            "objectives and perfromance criteria",
+                            "processes to be employed",
+                            "enabling support services and resources; refer 7",
+                            "associated risks and controls"
+                        ],
+                        "description": "Documented information shall be available to the extent necessary to define and communicate planning outputs for each operating lifecycle phase including definition of:"
+                    }
+                ],
+                "ratings": [
+                    {
+                        "state": "Top management recognises the need for operational planning to achieve lifecycle objectives.",
+                        "evidence": [
+                            "Management articulates the need for planning the application of the OMS for specific operations and activities",
+                            "Management demonstrates an understanding of existing operational planning processes and associated capability gaps."
+                        ]
+                    },
+                    {
+                        "state": "Processes for planning the activities and key functions to be employed at each stage of business operating lifecycles defined.",
+                        "evidence": [
+                            "Planning processes defined for specific business activities",
+                            "Processes require deliverables and control criteria to be included in plans",
+                            "Processes enable scalable application of processes and controls based on the scope, complexity and risks and opportunities associated with specific operations."
+                        ]
+                    },
+                    {
+                        "state": "Activities and key functions employed at each stage of business operating lifecycles are planned and controlled against plan requirements.",
+                        "evidence": [
+                            "Operational planning processes implemented for all business activities",
+                            "Plans and contingencies established for business activities",
+                            "Plans provide the controls to manage unplanned events and outcomes",
+                            "Records demonstrate execution of activities according to plans",
+                            "Providers aligned with processes for planning activities and key functions."
+                        ]
+                    },
+                    {
+                        "state": "The efficiency and effectiveness of operational planning processes monitored to identify and implement improvement opportunities.",
+                        "evidence": [
+                            "Systematic analysis of outcomes to inform planning of improvements and opportunities",
+                            "Operating plans amended to address adverse trends or realise improvement opportunities",
+                            "Operating controls responsive to changes in requirements and performance outcomes",
+                            "Processes in use by providers are informed by or inform improvement of the Organization’s planning processes and plans."
+                        ]
+                    },
+                    {
+                        "state": "Agile operating models, planning processes and contracting strategies enable emerging opportunities.",
+                        "evidence": [
+                            "Demonstrated diversity in approach including leveraging and delegating operational planning activities with partner and provider organizations",
+                            "Operating models established for different business streams consistent with stakeholder expectations, risk and opportunities."
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "25",
+                "title": "8.2 Business opportunity realization (Development Phase)",
+                "requirements": [
+                    {
+                        "notesPrefix": "A decision gate process can support the progressive value maturation of a business opportunity through creating and optimising value. Annex A provides an example of the opportunity realization decision gate process.",
+                        "notes": [
+                            "Definition and development of the selected concept includes definition of operational philosophies and performance standards."
+                        ],
+                        "items": [
+                            "identifying opportunities and confirming alignment to business objectives",
+                            "assessing whether there is merit in progressing opportunities",
+                            "selecting the optimal concept in line with business objectives",
+                            "defining the selected concept for development of the opportunities",
+                            "developing and implementing an execution plan to realize the opportunities as promised in the investment decision",
+                            "confirming that all objectives as defined in the plan and investment decision have been achieved",
+                            "Handover for the operations phase of the lifecycle"
+                        ],
+                        "description": "The organization shall develop, implement and control processes to identify and realize (develop) opportunities that are consistent with the objectives. The processes shall be risk-based to create, optimize and maintain value for business opportunities. The processes shall address:"
+                    }
+                ],
+                "ratings": [
+                    {
+                        "state": "Top management recognise the need for a defined methodology to manage identification and realisation of business opportunities.",
+                        "evidence": [
+                            "Top Management articulate the need to define opportunity identification and realisation processes that enable the achievement of business objectives",
+                            "Management demonstrates an understanding of existing opportunity lifecycle management processes and capabilities."
+                        ]
+                    },
+                    {
+                        "state": "Risk-based processes to identify and realise (develop) business opportunities defined.",
+                        "evidence": [
+                            "Adaptable and saleable processes and methodologies defined, which address Clause 8.2 points a) to f)",
+                            "Processes include definition of lifecycle phases and decision-making criteria for the progression of opportunities and commitment of organization resources.",
+                            "Processes include definition of controls and associated technical and financial authorities governing the progression of opportunities notably investment decisions and the handover/acceptance for the Operations phase."
+                        ]
+                    },
+                    {
+                        "state": "Realization of business opportunities planned and managed through the risk-based application of the lifecycle management processes.",
+                        "evidence": [
+                            "Business opportunities systematically registered and tracked",
+                            "Business opportunities subject to formal decisions and progressed using predefined risk-based processes",
+                            "Opportunity realisation plans include definition of scope and associated controls over partner, provider and stakeholder contributions to opportunity realisation",
+                            "Opportunity performance criteria measured and resultant trends analysed and adverse trends addressed."
+                        ]
+                    },
+                    {
+                        "state": "The efficiency and effectiveness of opportunity realisation processes monitored to identify and implement improvements.",
+                        "evidence": [
+                            "Systematic project reviews identify lessons leading to process improvement initiatives.",
+                            "Documented improvements in project delivery performance criteria and norms inform risk based business case decisions",
+                            "Provider performance and capabilities contribute to improvements in lifecycle management processes."
+                        ]
+                    },
+                    {
+                        "state": "Identification and realization of business opportunities that extend the organization’s strategic direction and scope.",
+                        "evidence": [
+                            "Opportunities are undertaken in new or emerging areas",
+                            "Opportunities are realised through unconventional operating models",
+                            "Contracting strategies enable optional realisation via partnerships, alliances, acquisitions or divestment"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "26",
+                "title": "8.3.1 Operations Phase - Plan",
+                "requirements": [
+                    {
+                        "notesPrefix": "Documented information shall be available for managing the operations and maintenance activities.",
+                        "notes": [],
+                        "items": [
+                            "Health safety and welfare of personnel and the community",
+                            "output needed to meet customer delivery commitments",
+                            "any associated customer and stakeholder obligations including sustainability and climate change considerations",
+                            "available resources",
+                            "rated capacity, safe operating limits, capability and availability of facilities, plant or equipment",
+                            "condition monitoring and risk-based inspection (RBI)",
+                            "maintenance and sparing strategies",
+                            "external factors"
+                        ],
+                        "description": "The organisation shall plan operations to effectively deliver products and services and other outputs required to meet business objectives and stakeholder requirements. The operations and maintenance planning process shall consider factors, including but not limited to:"
+                    }
+                ],
+                "ratings": [
+                    {
+                        "state": "Top Management recognises their business operational objectives and regulatory obligations and the imperative of planning existing asset operations and maintenance to deliver customer and stakeholder obligations.",
+                        "evidence": [
+                            "Management articulates the need for planning and plans to sustain operations of established assets",
+                            "Management demonstrates an understanding of business operating objectives and stakeholder/regulatory obligations and the degree to which they are achieved",
+                            "Management demonstrates an understanding of existing operational planning capabilities."
+                        ]
+                    },
+                    {
+                        "state": "Processes for developing operational philosophies and planning processes for existing and planned operational assets defined.",
+                        "evidence": [
+                            "Operating and maintenance philosophy principles and requirements defined",
+                            "Pre-requisite Operations engagement during opportunity realization (facility development) including operations readiness governance defined (8.2)",
+                            "Planning cycles, criteria and resourcing principles defined"
+                        ]
+                    },
+                    {
+                        "state": "Integrated operations plans needed to sustain asset operations to deliver customer and stakeholder obligations.",
+                        "evidence": [
+                            "Plans aligned with and are responsive to, changes in production (sales) commitments and with asset rated capacities.",
+                            "Plans consistent with asset integrity, availability and reliability factors",
+                            "Plans fully resourced (people, facility, spares, environment, knowledge) including outsourced resources",
+                            "Plans include risk-based contingencies",
+                            "Actual verses planned performance parameters recorded."
+                        ]
+                    },
+                    {
+                        "state": "Integrated operational plans are responsive to operational performance and feedback, capacity, capability, risks, market conditions and stakeholder requirements and commitments.",
+                        "evidence": [
+                            "Actual verses planned performance parameters analysed",
+                            "perating improvements e.g. performance above rated capacity inform improvements in operational forecasts and plans (8.3.2)",
+                            "Improvements in integrity, availability and reliability performance inform operational plans and contingencies (8.3.3)",
+                            "Plan resource forecasts (people, facility, spares, environment, knowledge) including outsourced resources, reduced based on operating (8.3.2) and maintenance (8.3.3) improvement outcomes."
+                        ]
+                    },
+                    {
+                        "state": "Forecast and proven performance outputs enable investment in business strategies and disruptive changes to business concepts and technologies.",
+                        "evidence": [
+                            "Forecast (planned) operating performance (revenue/value) used as basis for funding transformation investments (8.2)",
+                            "Diverse operating models and contracting strategies employed including operator and non-operator participation to deliver operational objectives."
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "27",
+                "title": "8.3.2 Operations Phase - Operate",
+                "requirements": [
+                    {
+                        "notesPrefix": "",
+                        "notes": [],
+                        "items": [
+                            "start-up, shut down, return to service",
+                            "turn Arounds (TA) Execution",
+                            "routine operations",
+                            "non-routine/temporary operations; and maintenance",
+                            "emergency operations. /shut downs."
+                        ],
+                        "description": "The organisation shall operate assets with integrity within defined limits and according to performance standards. The organization shall define processes and controls for operating within safety and production operating envelopes during:The processes and controls shall include provisions for:"
+                    },
+                    {
+                        "notesPrefix": "Documented information shall be available to the extent necessary to have confidence that the processes and controls ensure achievement of operational objectives.",
+                        "notes": [],
+                        "items": [
+                            "design parameters and operating envelope information",
+                            "safety critical elements and associated equipment",
+                            "control of work including simultaneous operations",
+                            "management of change (see 6.4)"
+                        ],
+                        "description": "The processes and controls shall include provisions for:"
+                    }
+                ],
+                "ratings": [
+                    {
+                        "state": "Top management recognise regulatory requirements, operating philosophies and delivery commitments associated with existing operating assets.",
+                        "evidence": [
+                            "Management articulates understanding of and commitment to meeting operating objectives and obligations associated with existing assets",
+                            "Management demonstrate an understanding of existing operating processes, performance criteria and controls and associated capability gaps."
+                        ]
+                    },
+                    {
+                        "state": "Asset operating processes and controls defined.",
+                        "evidence": [
+                            "Assessment of the required processes and controls to operate existing assets within operational envelopes to meet output commitments",
+                            "Process for defining operating processes and controls includes risk-based consideration of associated stakeholder commitments and obligations when defining processes and controls",
+                            "Procedures and processes developed and validated for use (operational readiness)."
+                        ]
+                    },
+                    {
+                        "state": "Asset operating processes and controls implemented, and effectiveness verified.",
+                        "evidence": [
+                            "Monitoring trends related to performance and outputs",
+                            "Monitoring trends on incidents, non-routine operations, non-conformance etc.",
+                            "People have the prerequisite competences and are trained in the operational procedures and processes they undertake",
+                            "Process controls extend to Providers involved in asset operations."
+                        ]
+                    },
+                    {
+                        "state": "Asset operating processes and controls responsive and optimised based on performance feedback and commitments and informs business improvement opportunities.",
+                        "evidence": [
+                            "Operating performance trends, deviations and events analysed",
+                            "Provider operating knowledge informs analysis and actions",
+                            "Corrective, preventive and improvement actions implemented based on analysis findings",
+                            "Analysis findings impacting operations scheduling and resource forecasts informs operational planning (8.3.1)",
+                            "Asset or business improvement opportunities identified through analysis informs opportunity realisation (8.2)."
+                        ]
+                    },
+                    {
+                        "state": "Operational performance and learnings inform and enable business strategies and disruptive changes to business concepts and technologies.",
+                        "evidence": [
+                            "Operational learnings and knowledge inform business opportunities (8.2)",
+                            "Operating performance (revenue/value) sustains transformation investments (8.2)",
+                            "Operations a key participant in opportunity realization (8.2)."
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "28",
+                "title": "8.3.3 Operations Phase - Maintain",
+                "requirements": [
+                    {
+                        "notesPrefix": "Documented information shall be available to the extent necessary to demonstrate conformance with specified requirements and performance standards.",
+                        "notes": [],
+                        "items": [],
+                        "description": "The organisation shall maintain both operational and idle assets according to established maintenance strategies and plans to ensure operating integrity and to achieve safe and reliable operations. The organization shall implement risk-based monitoring, inspection and verification activities at planned intervals, to determine the performance and integrity of its assets. The organization shall implement maintenance programs and processes based on the determined  performance and integrity of its assets which ensure the assets continue to meet performance standards. Equipment and spares management, including storage provisions, shall be consistent with the operational philosophy and criticality to ensure availability and integrity of equipment and spares. Deviations from specified criteria shall be managed (see 6.4)"
+                    }
+                ],
+                "ratings": [
+                    {
+                        "state": "Top management recognize obligations to maintain assets in accordance with performance requirements, maintenance philosophies and reliability and availability commitments.",
+                        "evidence": [
+                            "Management articulates a commitment to establishing inspection and maintenance controls",
+                            "Management articulates the relevant requirements that apply when maintaining asset performance and integrity",
+                            "Management demonstrate an understanding of existing maintenance philosophies and programs and associated capability gaps."
+                        ]
+                    },
+                    {
+                        "state": "Asset maintenance philosophies processes and controls defined.",
+                        "evidence": [
+                            "Processes and controls required to implement maintenance philosophies determined",
+                            "risk assessment undertaken to establish controls required to maintain operating and integrity performance standards.",
+                            "Resource (people, facility, spares, environment, knowledge) requirements defined",
+                            "Outsourced maintenance scopes of work defined",
+                            "Maintenance processes and controls developed and validated for use (operational readiness."
+                        ]
+                    },
+                    {
+                        "state": "Asset maintenance philosophies, processes and controls implemented and application verified.",
+                        "evidence": [
+                            "Maintenance procedures and resources available at point of use",
+                            "People, including outsourced resources, have the prerequisite competences and are trained in the maintenance processes and controls they undertake",
+                            "Maintenance performance and output trends recorded",
+                            "Deviations to planned maintenance subject to MoC",
+                            "Incidents, non-routine operations, nonconformity attributed to maintenance recorded and corrected."
+                        ]
+                    },
+                    {
+                        "state": "Asset maintenance processes and controls responsive and optimised based on performance feedback and commitments and informs business improvement opportunities.",
+                        "evidence": [
+                            "Maintenance performance trends, deviations and events analysed",
+                            "Provider maintenance knowledge informs analysis and actions",
+                            "Corrective, preventive and improvement actions, including provider actions, implemented based on analysis findings",
+                            "Analysis findings impacting maintenance scheduling and resource forecasts informs operational planning (8.3.1)",
+                            "Asset or business improvement opportunities identified through analysis informs opportunity realisation (8.2)."
+                        ]
+                    },
+                    {
+                        "state": "Maintenance performance sustains operational performance and learnings inform business strategies and disruptive changes to business concepts and technologies.",
+                        "evidence": [
+                            "Predictive maintenance eliminates unplanned maintenance through use of intelligent systems",
+                            "Maintenance learnings and knowledge informs business opportunities (8.2)",
+                            "Maintenance a key participant in opportunity realization (8.2)."
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "29",
+                "title": "8.4 Response to unplanned events and outcomes",
+                "requirements": [
+                    {
+                        "notesPrefix": "The processes and controls shall be evaluated after testing and after the occurrence of unplanned events and outcomes and shall be revised as necessary. Documented information on the controls for unplanned events and outcomes as well as of actual events and outcomes shall be available as the basis for review (see 9.3) and corrective action (see 10.2).",
+                        "notes": [],
+                        "items": [
+                            "provide for timely detection and response",
+                            "mitigate the consequences, appropriate to the magnitude of the unplanned events and outcomes, and the potential impact to the business and relevant stakeholders",
+                            "provide for recovery to planned operations",
+                            "communicate and provide relevant information to internal and external stakeholders"
+                        ],
+                        "description": "The organization shall periodically validate response capability to ensure that the contingency and emergency plans required by 6.3 and 8.1 remain adequate. The organization shall implement appropriate controls in response to unplanned events and outcomes to:"
+                    }
+                ],
+                "ratings": [
+                    {
+                        "state": "Top management recognizes the organization’s and their individual obligations and the associated need to validate the plans for business continuity and emergency response.",
+                        "evidence": [
+                            "Top Management articulates understanding off and commitment to validating processes established in 6.3 and 8.1.",
+                            "Top management demonstrates an understanding of existing validation processes and outcomes and associated capability gaps."
+                        ]
+                    },
+                    {
+                        "state": "Processes to record and analyse actions taken to control and correct (actual or test scenario) unplanned events defined.",
+                        "evidence": [
+                            "Processes established to test and validate the plans and introduce controls, in response to events and outcomes",
+                            "Pre-requisite capabilities and competencies defined",
+                            "Pre-requisite resources, including external resources defined",
+                            "Plans for emergency drills are defined."
+                        ]
+                    },
+                    {
+                        "state": "Plans and process for responding to unplanned events are tested periodically, initiated when required and performance in response to test scenarios or actual events recorded and analysed.",
+                        "evidence": [
+                            "Plans and processes tested as planned",
+                            "Pre-requisite capabilities are fulfilled, and capability effectiveness tested through testing",
+                            "Dependencies on external capabilities validated",
+                            "Historic event records meet applicable plan/process requirements and provide trail of events, actions taken and analysis",
+                            "Information communicated to stakeholders in accordance with plans and obligations,",
+                            "Analysis outcomes and lessons inform planning (6.4, 8.1)."
+                        ]
+                    },
+                    {
+                        "state": "Sustained improvement in the effectiveness of controls established to respond to unplanned events and outcomes.",
+                        "evidence": [
+                            "Performance trends in responses to actual and test scenario events analysed to inform improvements in operational planning (8.3.1)",
+                            "Emergency training needs are reviewed and adjusted according to risk analysis of planned operational changes and associated event scenarios",
+                            "Stakeholders (partners, contractors, organizations, authorities are engaged in analysis of event scenarios and capabilities and resultant improvement initiatives",
+                            "Stakeholders are openly debriefed following scenario testing and lessons and validation of resultant improvement actions shared with relevant stakeholders."
+                        ]
+                    },
+                    {
+                        "state": "Recognized leader of evolution of industry approaches, standards and methodologies for validating and responding to unplanned events and outcomes.",
+                        "evidence": [
+                            "Initiate/participation in collaborative arrangements for responding to unplanned events in peer organizations",
+                            "Active benchmarking and participation in industry continuity and unplanned event standardisation initiatives",
+                            "Influencer of peers, government and communities in establishing best practice across all communities in which operations are undertaken."
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "group": {
+            "reference": "evaluation",
+            "name": "9. Performance evaluation"
+        },
+        "sections": [
+            {
+                "id": "30",
+                "title": "9.1 Monitoring, measurement, analysis and evaluation",
+                "requirements": [
+                    {
+                        "notesPrefix": "Documented information shall be available as evidence of the results.",
+                        "notes": [],
+                        "items": [
+                            "what needs to be monitored and measured",
+                            "the methods for monitoring, measurement, analysis and evaluation, as applicable, to ensure valid results",
+                            "when the monitoring and measuring shall be performed",
+                            "when the results from monitoring and measurement shall be analysed and evaluated",
+                            "to whom and how to communicate performance results and associated actions.",
+                            "the performance of externally provided processes, products and services.",
+                            "performance in meeting stakeholder expectations and requirements; and",
+                            "stakeholder perceptions of the degree to which their expectations and requirements have been fulfilled."
+                        ],
+                        "description": "The organization shall determine:"
+                    },
+                    {
+                        "notesPrefix": "The organization shall use this information to assess the effect or potential effect on the organization’s ability to sustainably achieve business objectives and stakeholder expectations and requirements.",
+                        "notes": [],
+                        "items": [
+                            "the performance of externally provided processes, products and services.",
+                            "performance in meeting stakeholder expectations and requirements; and",
+                            "stakeholder perceptions of the degree to which their expectations and requirements have been fulfilled."
+                        ],
+                        "description": "The organization shall evaluate the operating performance and the effectiveness of the operating management system. Monitoring, measurement, analysis and evaluation shall include:"
+                    }
+                ],
+                "ratings": [
+                    {
+                        "state": "Top management recognises the importance of performance evaluation as the basis for determining the effectiveness for the OMS and for demonstrating conformance and informing business decisions and improvement.",
+                        "evidence": [
+                            "Top Management articulates an understanding of the dependency of the achievement of business objectives and obligations and OMS capability",
+                            "Management demonstrates existing processes and capabilities for assessing OMS effectiveness and performance in the achievement of objectives and obligations."
+                        ]
+                    },
+                    {
+                        "state": "Performance evaluation plans and processes defined.",
+                        "evidence": [
+                            "Performance evaluation plans and objectives defined, including externally provided products, processes and services",
+                            "Processes and measurement criteria developed to monitor and measure performance of the OMS and against business objectives (6.2), and to determine conformance with customer/stakeholder requirements and compliance with regulatory obligations",
+                            "Resources (people, tools etc) including external resources, required to implement monitoring, measurement, analysis and evaluation processes defined."
+                        ]
+                    },
+                    {
+                        "state": "Monitoring and measurement data generated and subject to evaluation and used to inform process management, controls and business decisions.",
+                        "evidence": [
+                            "Data and analysis outputs conform with applicable measurement criteria",
+                            "Externally sourced data analysed and integrated",
+                            "Analysis outputs communicated to inform decisions/actions (Human or machine-based decisions/actions as applicable)",
+                            "Evaluation of analysis outputs against requirements and objectives by relevant functional, process and business owners to inform decisions and actions demonstrated."
+                        ]
+                    },
+                    {
+                        "state": "Performance evaluation is assessed to inform sustainable improvements to evaluation processes and tools.",
+                        "evidence": [
+                            "Performance evaluation outputs reviewed to validate suitability, relevance and value",
+                            "Data capture and analysis methodology performance reviewed to identify potential improvements in techniques, hardware/software tools and competencies to increase efficiency, accuracy and reliability of output information."
+                        ]
+                    },
+                    {
+                        "state": "The Organization demonstrates the use of benchmarking, disruptive relationships and technologies to deliver measurement and evaluation solutions.",
+                        "evidence": [
+                            "Acquisition or outsourcing of digital solutions including machine readability and learning to automate evaluation and decisions",
+                            "Contributing to and drawing on benchmarked data and analysis sources",
+                            "Transparent communication/sharing of information with partners, providers and other stakeholders."
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "31",
+                "title": "9.2 Audit",
+                "requirements": [
+                    {
+                        "notesPrefix": "",
+                        "notes": [],
+                        "items": [
+                            "Conform with:  the organization’s own requirements the requirements of this document; is effectively implemented and maintained."
+                        ],
+                        "description": "General: The organization shall conduct internal audits at planned intervals to provide information on whether the operating management system:"
+                    },
+                    {
+                        "notesPrefix": "Documented information shall be available as evidence of the implementation of the audit programme(s) and the audit results.",
+                        "notes": [],
+                        "items": [
+                            "define the audit objectives and scope for each audit",
+                            "select auditors and conduct audits to ensure objectivity and the impartiality of the audit process",
+                            "ensure that the results of the audits are reported to relevant managers"
+                        ],
+                        "description": "Audit programme: The organization shall plan, establish, implement and maintain an audit programme(s) including the frequency, methods, responsibilities, planning requirements and reporting. When establishing the internal audit programme(s), the organization shall consider the importance of the processes concerned and the associated risks, and the results of previous audits. The organization shall:"
+                    }
+                ],
+                "ratings": [
+                    {
+                        "state": "Top Management recognises the value of audit and assessment activities to validate the effectiveness of the OMS.",
+                        "evidence": [
+                            "Management articulates the value off systematic management system audit and assessment programs",
+                            "Management demonstrates existing assessment and assessment practices and associated capability gaps."
+                        ]
+                    },
+                    {
+                        "state": "Processes for planning executing and reporting audits and assessments defined.",
+                        "evidence": [
+                            "Process and criteria for establishing and prioritising assessment programs defined.",
+                            "Process defined for planning executing and reporting audits and assessments defined",
+                            "Assessor competency requirements and associated qualification processes defined."
+                        ]
+                    },
+                    {
+                        "state": "Audit and assessment program effectively implemented.",
+                        "evidence": [
+                            "Risk based, multidisciplinary, coordinated assessment plan(s) established",
+                            "Assessment teams established with pre-requisite auding and subject matter competence and experience and independence",
+                            "Records of performed assessments according to plan that include objective, scope, criteria. conclusion, assessment and necessary data",
+                            "Assessment terms of reference and findings endorsed in accordance with line and functional authorities."
+                        ]
+                    },
+                    {
+                        "state": "Audits and assessments are used to benchmark business processes to proactively inform improvements.",
+                        "evidence": [
+                            "Risks and opportunities identified in assessments systematically inform improvement of business processes and objectives",
+                            "Assessment plans integrate (rather than duplicate) stakeholder and provider assessment and assessment processes and capabilities."
+                        ]
+                    },
+                    {
+                        "state": "The effectiveness of mature business processes and inherent controls enable audits and assessments to be limited to emerging business opportunities and risks.",
+                        "evidence": [
+                            "Process control effectiveness demonstrated by performance evaluation trends (refer 9.1 enables reduced assessment requirements",
+                            "Assessment findings demonstrate high levels of process suitability and effectiveness with minimal recurrence",
+                            "Audit and Assessment resources targeted on emerging business opportunities and changes in stakeholder requirements and expectations."
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "32",
+                "title": "9.3 Management review",
+                "requirements": [
+                    {
+                        "notesPrefix": "",
+                        "notes": [],
+                        "items": [],
+                        "description": "General: Top management shall review the organization’s operating management system, at planned intervals, to ensure its continuing suitability, adequacy, and effectiveness and alignment with the strategic direction of the organization."
+                    },
+                    {
+                        "notesPrefix": "",
+                        "notes": [
+                            "The results of management reviews shall include decisions and actions related to continual improvement opportunities and any need for changes to the operating management system. Documented information shall be available as evidence of the results of management reviews."
+                        ],
+                        "items": [
+                            "the status of actions from previous management reviews",
+                            "changes in external and internal issues that are relevant to the operating management system",
+                            "changes in needs and expectations and requirements of stakeholders that are relevant to the operating management system",
+                            "information on the performance and effectiveness of the operations including trends in:  feedback from stakeholders; the extent to which operating objectives have been met; nonconformities and corrective actions; unplanned events and outcomes, and any actions taken; monitoring and measurement results; audit results; performance of external providers",
+                            "the adequacy of resources",
+                            "effectiveness of actions taken to address risks and opportunities",
+                            "opportunities for continual improvement"
+                        ],
+                        "description": "Mangement review inputs: Management reviews shall be planned and carried out considering:"
+                    },
+                    {
+                        "notesPrefix": "",
+                        "notes": [],
+                        "items": [],
+                        "description": "Management review outputs: The results of management reviews shall include decisions and actions related to continual improvement opportunities and any need for changes to the operating management system. Documented information shall be available as evidence of the results of management reviews."
+                    }
+                ],
+                "ratings": [
+                    {
+                        "state": "Top management recognises the value of reviewing management system and business performance against objectives.",
+                        "evidence": [
+                            "Top management articulates their expectations for systematic review of performance in achieving objectives including the influence management system capability has on business performance",
+                            "Management demonstrates existing management review requirements, practices, outputs and associated capability gaps."
+                        ]
+                    },
+                    {
+                        "state": "Management review processes defined",
+                        "evidence": [
+                            "Management review process addresses requirements 9.3",
+                            "Management review schedule encompassing the organization’s scope, context and objectives defined and resourced."
+                        ]
+                    },
+                    {
+                        "state": "Management reviews implemented in accordance with agreed plans with review outputs informing business decisions.",
+                        "evidence": [
+                            "Management reviews undertaken in accordance with process",
+                            "Management reviews address organization’s scope, context and objectives",
+                            "Reviews analyse OMS performance in respect to the achievement of business objectives and obligations",
+                            "Review findings inform corrective and improvement actions",
+                            "Top management decision(s) informed by review outputs.",
+                            "Management review outcomes appropriately communicated within the organization and to stakeholders."
+                        ]
+                    },
+                    {
+                        "state": "Management review outputs inform business strategies, objectives and improvement plans, considering stakeholder requirements and expectations.",
+                        "evidence": [
+                            "Management review processes/plans address organizational interdependencies from business unit and functional perspectives (Important for Large and/or complex organizations)",
+                            "Joint ventures and providers included in scope of management reviews",
+                            "Business strategies and objectives traceable to management review outcomes and decisions (Case study examples)",
+                            "Top management trigger extraordinary management reviews in response to changing requirements and performance trends."
+                        ]
+                    },
+                    {
+                        "state": "Management reviews inform and are informed by emerging business and technology opportunities and realisation of strategies and objectives.",
+                        "evidence": [
+                            "Management review processes/plans include consideration of emerging business and technology opportunities",
+                            "Management review outputs provide performance indicators that inform decisions on the organization’s readiness/capacity to develop or acquire new business opportunities and technologies",
+                            "Due diligence when assessing acquisition of emerging business opportunities and technologies includes analysis of any related management system capabilities, controls and associated risks."
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "group": {
+            "reference": "improvement",
+            "name": "10. Improvement"
+        },
+        "sections": [
+            {
+                "id": "33",
+                "title": "10.1 Continual Improvement",
+                "requirements": [
+                    {
+                        "notes": [
+                            "Improvement activities can range from continual improvement or corrective actions through to significant breakthrough, innovation or organizational design changes. Improvement processes follow a structured approach, such as the plan-do-check-improve (PDCI) cycle with tools and technics selected to suit specific improvement objectives.",
+                            "It is expected that the organization establishes improvement as a fundamental part of the organization’s culture by empowering people to participate and contribute to the successful achievement of improvement initiatives, providing the necessary resources to achieve improvement objectives, celebrating success, and the visible involvement of top management in improvement activities.",
+                            "ISO 9004 provides guidance on improvement, learning and innovation."
+                        ],
+                        "items": [
+                            "improving the capability, deployment and performance of its people",
+                            "improving operating performance, facilities and products and services to meet requirements and to address future needs and expectations",
+                            "correcting, preventing or reducing undesired effects",
+                            "improving strategic decision making with respect to business opportunities realization",
+                            "improving the effectiveness of operating management system processes and controls"
+                        ],
+                        "description": "The organization shall continually improve the suitability, adequacy and effectiveness of the operating management system. Improvement, learning and innovation are key, interdependent aspects that contribute to organisational knowledge and the sustained success of an organization. The organization shall monitor changes in internal and external issues, including the needs and expectations of stakeholders, providers of processes, products and services, and select opportunities for improvement, learning and innovation that support the sustained achievement of the organization’s purpose, business objectives and stakeholder expectations and requirements. Opportunities can include:"
+                    }
+                ],
+                "ratings": [
+                    {
+                        "state": "Top management recognise the value of improvement, learning and innovation.",
+                        "evidence": [
+                            "Top management articulate commitment to improvement to achieve sustained business performance",
+                            "Management demonstrate existing improvement, learning and knowledge management capabilities and associated gaps."
+                        ]
+                    },
+                    {
+                        "state": "Improvement, learning and innovation processes defined.",
+                        "evidence": [
+                            "Processes for improvement, learning and innovation defined",
+                            "Toolbox available e.g., techniques, tools, information)",
+                            "Implementation plan and associated performance measures defined",
+                            "Improvement, learning and innovation facilitation resources available."
+                        ]
+                    },
+                    {
+                        "state": "Improvement, learning and innovation framework is implemented.",
+                        "evidence": [
+                            "Opportunities related to improvement, learning and innovation identified and managed in accordance with applicable processes and tools.",
+                            "Performance measures established to analyse the effect of improvement, learning and innovation",
+                            "Changes to internal and external issues monitored to inform improvement opportunities and related risks",
+                            "Employees demonstrate an understanding of the improvement, learning and innovation framework",
+                            "Implementation extends to key suppliers and partners",
+                            "Acquired knowledge and opportunities communicated internally and to stakeholders."
+                        ]
+                    },
+                    {
+                        "state": "Improvement, learning and innovation initiatives demonstrate positive performance trends in realising process and business objectives.",
+                        "evidence": [
+                            "Positive trends for defined metrics and objectives",
+                            "Evaluation of all improvement. learning and innovation outcomes informs development of improvement processes and future initiatives",
+                            "Improvement, learning and innovation is embedded in the Organization’s culture (e.g. employees demonstrate mature understanding of improvement processes and resources, personal goals defined, management communication campaigns)",
+                            "Improvement initiatives implemented beyond the Organization (e.g. Partners, Suppliers, Universities, NGOs)."
+                        ]
+                    },
+                    {
+                        "state": "Improvement, learning and innovation informs disruptive changes to business objectives and processes reflecting emerging business and stakeholder context and value.",
+                        "evidence": [
+                            "Organization uses the learnings from improvement and innovation to develop and, validate a comprehensive body of knowledge",
+                            "Organization routinely leverages the knowledge to inform business strategies and",
+                            "Organization benchmarks and leverages knowledge beyond existing context and stakeholder expectations when framing strategies and realising opportunities",
+                            "Organization defines and applies a value generation model to validate the value realised through business initiatives."
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "34",
+                "title": "10.2 Nonconformity and Corrective action",
+                "requirements": [
+                    {
+                        "notesPrefix": "",
+                        "notes": [],
+                        "items": [
+                            "react to the unplanned event, outcome or nonconformity and, as applicable: take action to control and correct it; deal with the consequences; update relevant internal and external stakeholders about the progress and management of the unplanned event. outcome, nonconformities, corrective actions, and eventual outcome",
+                            "evaluate the need for action to eliminate the cause(s) of the unplanned event, outcome or nonconformity, in order that it does not recur or occur elsewhere, by:  reviewing the unplanned event, outcome or nonconformity; determining the causes of the unplanned event. outcome or nonconformity; determining if similar unplanned events, outcomes or nonconformities exist, or can potentially occur",
+                            "implement any action needed",
+                            "review the effectiveness of any corrective action taken",
+                            "make changes to the operating management system, if necessary"
+                        ],
+                        "description": "When an unplanned event, outcome or nonconformity occurs (see 8.4), the organization shall:"
+                    },
+                    {
+                        "notesPrefix": "",
+                        "notes": [],
+                        "items": [
+                            "the nature of the unplanned events, outcomes or nonconformities and any subsequent actions taken",
+                            "the results of any corrective action"
+                        ],
+                        "description": "Corrective actions shall be appropriate to the effects of the unplanned events, outcomes or nonconformities encountered. Documented information shall be available as evidence of:"
+                    }
+                ],
+                "ratings": [
+                    {
+                        "state": "Top management recognise the need to address unplanned events, outcomes or non-conformities and their causes.",
+                        "evidence": [
+                            "Top management articulate an understanding of why unplanned events, outcomes or non-conformities need to be addressed systematically",
+                            "Management demonstrate existing corrective action practices and associated capability gaps."
+                        ]
+                    },
+                    {
+                        "state": "Processes to address unplanned events, outcomes or non-conformities and their causes defined.",
+                        "evidence": [
+                            "Process defined including protocols and tools for:",
+                            "Immediate control and correction responses as per Clause 8.4",
+                            "analysis of causes consistent with the event context and risks)",
+                            "definition, implementation and verification of the effectiveness of actions",
+                            "Communication of unplanned events, outcomes or non-conformities",
+                            "Implementation plans and pre-requisite resources available."
+                        ]
+                    },
+                    {
+                        "state": "Unplanned events, outcomes and non-conformities controlled, corrected and corrective action implemented to prevent reoccurrence.",
+                        "evidence": [
+                            "Systematic use of processes throughout the organization",
+                            "Management clear on expectations to handling of unplanned event, outcome or nonconformity",
+                            "Analysis outputs establish significance, risks and associated causes",
+                            "System/tools and metrics track status against commitments to address unplanned events, outcomes or nonconformities and related actions",
+                            "Processes include controls over unplanned events, outcomes or nonconformities and related actions in the supply chain",
+                            "Effectiveness of actions measured and verified."
+                        ]
+                    },
+                    {
+                        "state": "Business performance improvements realized by preventing or leveraging reoccurrence of unplanned events and outcomes.",
+                        "evidence": [
+                            "Monitoring of effect and efficiency of processes to address unplanned events, outcomes or non-conformities",
+                            "Integration of functional processes for managing actions related to unplanned events, outcomes or nonconformities",
+                            "Interdependencies and impact of actions understood and aligned with stakeholders",
+                            "Reoccurrence is measured and managed (opportunities captured, controls implemented).",
+                            "History of unplanned events is employed when framing and planning new activities"
+                        ]
+                    },
+                    {
+                        "state": "Knowledge gained through the analysis and actioning of unplanned events and outcomes informs business strategies and opportunity realization.",
+                        "evidence": [
+                            "Learnings from unplanned events and outcomes is included in the organizations body of knowledge and as such informs innovation and business strategies, see 10.1",
+                            "Organization benchmarks, shares its knowledge and leverages strategies and approaches employed by stakeholder organizations.",
+                            "Organization benchmarks, shares its knowledge and leverages strategies beyond its core sector stakeholder communities."
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "35",
+                "title": "10.3 Organizational knowledge",
+                "requirements": [
+                    {
+                        "notes": [
+                            "Organizational knowledge is knowledge specific to the organization; it is generally gained by experience. It is information that is used and shared to achieve the organization’s objectives.",
+                            "Organizational knowledge can be based on: internal sources (e.g. intellectual property; knowledge gained from experience; lessons learned from failures and successful projects; capturing and sharing undocumented knowledge and experience; the results of improvements in processes, products and services); external sources (e.g. standards; academia; conferences; gathering knowledge from customers or external providers)."
+                        ],
+                        "items": [],
+                        "description": "The organization shall determine the knowledge necessary for the operation of its processes and to achieve business objectives. This knowledge shall be maintained and be made available to the extent necessary. When addressing changing needs and trends, the organization shall consider its current knowledge and determine how to acquire or access any necessary additional knowledge and required updates."
+                    }
+                ],
+                "ratings": [
+                    {
+                        "state": "Top management recognize the value of organizational knowledge to achieve operational performance and business objectives.",
+                        "evidence": [
+                            "Top management articulate commitment to knowledge development as a key enabler of business performance",
+                            "Management demonstrates current knowledge management strategies and processes and proposed strategies to address knowledge gaps."
+                        ]
+                    },
+                    {
+                        "state": "Organizational knowledge requirements and management processes defined.",
+                        "evidence": [
+                            "Processes for knowledge acquisition and management defined",
+                            "Enabling, plans, techniques, templates are available",
+                            "Implementation plans and pre-requisite resources available."
+                        ]
+                    },
+                    {
+                        "state": "Integrated Knowledge, Learnings and gap closure framework implemented.",
+                        "evidence": [
+                            "Application of knowledge related to business processes implemented.",
+                            "Operations related knowledge measured for its effectiveness in processes, assets and people",
+                            "Improvements based on knowledge application communicated to stakeholders",
+                            "Engaging with external organizations to improve knowledge gap closure opportunities"
+                        ]
+                    },
+                    {
+                        "state": "Knowledge acquisition and application realizes positive impacts to process performance and business outcomes.",
+                        "evidence": [
+                            "Positive trends for defined knowledge related objectives and metrics",
+                            "Evaluation of learning and operational efficiency outcomes informs improvement processes and initiatives",
+                            "Organizational knowledge is embedded in the Organization’s culture (e.g. employees demonstrate mature understanding of operational processes and resources, management communication campaigns)."
+                        ]
+                    },
+                    {
+                        "state": "Organizational knowledge recognised as a key differentiator when implementing or acquiring emerging technologies and business opportunities.",
+                        "evidence": [
+                            "Organization’s body of knowledge informs innovation and business strategies, see 10.1",
+                            "Organizations knowledge is leveraged when planning and realising emerging business opportunities strategies",
+                            "Organization benchmarks and shares its knowledge to the benefit of the communities in which it operates."
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

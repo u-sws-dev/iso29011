@@ -1,3 +1,4 @@
+
 const maps =
 {
     i: '0',
@@ -17,7 +18,7 @@ const maps =
                 {
                     i: '4.2',
                     n: 'Needs',
-                    t: 'Understanding the needs and expectations of stakeholders'
+                    t: 'Understanding the needs and expectations of interested parties'
                 },
                 {
                     i: '4.3',
@@ -103,7 +104,7 @@ const maps =
                         {
                             i: '7.1.3',
                             n: 'Environment',
-                            t: 'Environment for the operation of processes'
+                            t: 'Operating environment'
                         }
                     ]
                 },
@@ -115,7 +116,7 @@ const maps =
                 {
                     i: '7.3',
                     n: 'Awareness',
-                    t: 'Awareness and engagement'
+                    t: 'Awareness'
                 },
                 {
                     i: '7.4',
@@ -157,7 +158,7 @@ const maps =
                         {
                             i: '7.7.2',
                             n: 'Providers',
-                            t: 'Externally provided processes, products and services - Provider capability'
+                            t: 'Externally provided processes, products and services - Provider assessment'
                         },
                         {
                             i: '7.7.3',
@@ -181,7 +182,7 @@ const maps =
                 {
                     i: '8.2',
                     n: 'Business ops',
-                    t: 'Business opportunity realization (Development Phase)'
+                    t: 'Business opportunity realization'
                 },
                 {
                     i: '8.3',
@@ -225,7 +226,7 @@ const maps =
                 {
                     i: '9.2',
                     n: 'Audit',
-                    t: 'Audit'
+                    t: 'Internal Audit'
                 },
                 {
                     i: '9.3',
@@ -246,8 +247,8 @@ const maps =
                 },
                 {
                     i: '10.2',
-                    n: 'NC/CA',
-                    t: 'Nonconformity and Corrective action'
+                    n: 'CA',
+                    t: 'Corrective action'
                 },
                 {
                     i: '10.3',
@@ -360,7 +361,15 @@ async function refreshAssessmentList() {
                             </path>
                         </svg>&nbsp;Export
                     </div>
-                </td>
+                    <div class="cmd report-row">
+                        <svg class="svg-inline--fa fa-plus fa-w-12" aria-hidden="true" focusable="false"
+                            role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                            <path fill="currentColor"
+                                d="M320 96L192 96C174.3 96 160 110.3 160 128L160 512C160 529.7 174.3 544 192 544L448 544C465.7 544 480 529.7 480 512L480 256L384 256C348.7 256 320 227.3 320 192L320 96zM466.7 224L352 109.3L352 192C352 209.7 366.3 224 384 224L466.7 224zM128 128C128 92.7 156.7 64 192 64L325.5 64C342.5 64 358.8 70.7 370.8 82.7L493.3 205.3C505.3 217.3 512 233.6 512 250.6L512 512C512 547.3 483.3 576 448 576L192 576C156.7 576 128 547.3 128 512L128 128z">
+                            </path>
+                        </svg>&nbsp;&nbsp;Report
+                    </div>
+               </td>
             </tr>`)
 
             //Dashboard Grid
@@ -425,7 +434,7 @@ async function exportAssessment(key) {
 
     workbook.creator = 'Universal Software Solutions'
     workbook.lastModifiedBy = 'ISO Assessment'
-    workbook.title = "ISO 29011 Assessment Tool"
+    workbook.title = "ISO 29502 Assessment Tool"
     workbook.created = exportDate
     workbook.modified = exportDate
     workbook.properties.date1904 = true
@@ -459,9 +468,6 @@ async function exportAssessment(key) {
 
     //SUMMARY
     ws = workbook.getWorksheet('Summary')
-    //Executive Summary
-    ws.getCell('B13').value = baseRecord.Summary
-
     //4 
     let lvs = getLevelValue(baseRecord.Vals, 4)
     ws.getCell('C4').value = lvs.sum
@@ -544,7 +550,6 @@ async function exportAssessment(key) {
     let records = [...baseRecord.Resources]
     //Sponsors - starting at Row 5
     let row = 5
-    //TODO: add a take for each of these to limit to 10 records per Role
     records.filter(f => f.Role == 'sponsors').forEach(e => {
         ws.getCell(`B${row}`).value = e.Reference
         ws.getCell(`C${row}`).value = e.Title
@@ -569,11 +574,13 @@ async function exportAssessment(key) {
 
     //Documents
     row = 5
-    records.filter(f => f.Role == 'documents').forEach(e => {
+    records.filter(f => f.Role == 'document').forEach(e => {
         ws.getCell(`E${row}`).value = e.Reference
         ws.getCell(`F${row}`).value = e.Title
+        ws.getCell(`G${row}`).value = e.URL
         row++
     })
+
 
     //Assessment content
     //4
@@ -663,7 +670,7 @@ async function importAssessment(selectedFile) {
 
         closeModal()
     }
-    catch(ex ) {
+    catch (ex) {
         alert("Supplied file is invalid")
         return
     }
@@ -682,6 +689,13 @@ function openModal(id, idx, ref) {
     modal.classList.remove('hidden')
     modal.dataset.dbkey = idx
     modal.querySelector(".modal-reference").innerHTML = ref
+}
+
+function openDocumentModal(id, section) {
+    const modal = document.getElementById(id)
+    modal.querySelectorAll('input[type=checkbox]').forEach(e => e.checked = false)
+    modal.$section = section
+    modal.classList.remove('hidden')
 }
 
 async function updateAssessment(key, element) {
@@ -877,7 +891,7 @@ class _idb {
 
 }
 
-const idxDb = new _idb('ISO_AT_29011', 1) // if the 1 here is modified - below open will need to cater for version schema change
+const idxDb = new _idb('ISO_AT_29502', 1) // if the 1 here is modified - below open will need to cater for version schema change
 // async update
 window.setTimeout(async () => {
     // open the DB and create a table for assessments (not catering for version change)
@@ -889,11 +903,18 @@ window.setTimeout(async () => {
 
 function getPageValues(element) {
     const vals = [...document.querySelectorAll("[data-element] .state-selector")].map(m => {
-        const r = {}
-        m.closest('.section').querySelectorAll('.findings [data-property]').forEach(m => {
+        const r = { refdocs: [] }
+        const section = m.closest('.section')
+
+        section.querySelectorAll('.findings [data-property]').forEach(m => {
             r[m.dataset.property] = m.value
         })
-        const t = m.closest('.section').querySelector('.section-band').textContent.trim()
+
+        section.querySelectorAll('.refdocs tbody input[type=hidden]').forEach(rd => {
+            r.refdocs.push(rd.value)
+        })
+
+        const t = section.querySelector('.section-band').textContent.trim()
         const p = t.split(' ')
         return { v: m.querySelector('td.selected')?.cellIndex ?? 0, i: p[0], ...r }
     })
@@ -904,8 +925,8 @@ function getPageValues(element) {
             map(i => [i.dataset.property, i.value])])).filter(f => f.Reference)
 
     //update all our document selections (if target is correct)
-    if (element.closest('.documents')) {
-        setReferencedDocument(resources)
+    if (element.closest('.documents,.refdocs')) {
+        setReferencedDocument(resources, vals.flatMap(f => f.refdocs))
     }
     // Terms / Summary
     const terms = Object.fromEntries([...document.querySelectorAll(":is(#terms,#summary) [data-property]")].flatMap(f => {
@@ -916,21 +937,55 @@ function getPageValues(element) {
 
 }
 
-function setReferencedDocument(resources) {
+function setReferencedDocument(resources, refs) {
     const availableDocs = resources.filter(f => f.Role == 'documents')
-    const opts = [{ Reference: '' }, ...availableDocs].map(m => `<option value="${m.Reference}">${m.Reference}</option>`).join('')
-    document.querySelectorAll('.findings select').forEach(e => {
-        const cv = e.value
-        e.innerHTML = opts
-        e.value = cv
+    const opts = availableDocs.map(m => `
+                        <tr>
+                            <td><input label="Assigned?" type="checkbox" value="${m.uuid}" /></td>
+                            <td>
+                                <div>${m.Reference}</div>
+                            </td>
+                            <td>
+                                <div>${m.Title}</div>
+                            </td>
+                            <td>
+                                <div>${m.URL}</div>
+                            </td>
+                        </tr>
+`).join('')
+
+    document.querySelector('#addReferenceDocumentModal tbody').innerHTML = opts
+
+    document.querySelectorAll('.documents table tbody tr').forEach(e => {
+        const assoc = refs.includes(e.querySelector('[data-property="uuid"]').value)
+        e.querySelector('[data-property="Reference"]').classList.toggle('locked', assoc)
+        e.querySelector('div.cmd.delete-row').classList.toggle('locked', assoc)
     })
 }
 
-function addResource(element, reference, title) {
-    //we are adding a new resource
+function addResource(element, reference, title, url, uuid) {
+    //we are adding a new resource - if it has a url it is a document
     const type = element.closest('[data-property]').dataset.property === 'Resources' ? 'Name' : 'Reference'
-    const newRow = `<tr>
-                                <td><input data-property="Reference" type="text" placeholder="${type}" value="${reference}"></input></td>
+    let newRow
+    if (url != undefined) {
+        newRow = `<tr>
+                                <td><input type="hidden" data-property="uuid" value="${uuid ?? Date.now()}"></input><input data-property="Reference" type="text" placeholder="${type}" value="${reference}" required></input></td>
+                                <td><input data-property="Title" type="text" placeholder="Title" value="${title}"></input></td>
+                                <td><input data-property="URL" type="text" placeholder="URL" value="${url}"></input></td>
+                                <td>
+                                    <div class="cmd delete-row">
+                                        <svg class="svg-inline--fa fa-plus fa-w-12" aria-hidden="true" focusable="false"
+                                            role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                            <path fill="currentColor"
+                                                d="M440 64H336l-33.6-44.8A48 48 0 0 0 264 0h-80a48 48 0 0 0-38.4 19.2L112 64H8a8 8 0 0 0-8 8v16a8 8 0 0 0 8 8h18.9l33.2 372.3a48 48 0 0 0 47.8 43.7h232.2a48 48 0 0 0 47.8-43.7L421.1 96H440a8 8 0 0 0 8-8V72a8 8 0 0 0-8-8zM171.2 38.4A16.1 16.1 0 0 1 184 32h80a16.1 16.1 0 0 1 12.8 6.4L296 64H152zm184.8 427a15.91 15.91 0 0 1-15.9 14.6H107.9A15.91 15.91 0 0 1 92 465.4L59 96h330z">
+                                            </path>
+                                        </svg>&nbsp;&nbsp;Delete
+                                    </div>
+                                </td></tr>`
+    }
+    else {
+        newRow = `<tr>
+                                <td><input data-property="Reference" type="text" placeholder="${type}" value="${reference}" required></input></td>
                                 <td><input data-property="Title" type="text" placeholder="Title" value="${title}"></input></td>
                                 <td>
                                     <div class="cmd delete-row">
@@ -942,6 +997,28 @@ function addResource(element, reference, title) {
                                         </svg>&nbsp;&nbsp;Delete
                                     </div>
                                 </td></tr>`
+    }
+
+    element.closest('table').querySelector('tbody').insertAdjacentHTML('beforeend', newRow)
+
+}
+
+function addReferenceDocument(element, uuid, reference, title, url) {
+
+    const newRow = `<tr>
+                            <td><input type="hidden" value="${uuid}"></input>&nbsp;${reference}</td>
+                            <td>${title}</td>
+                            <td>${url}</td>
+                            <td><div class="cmd unassign-row">
+                                        <svg class="svg-inline--fa fa-plus fa-w-12" aria-hidden="true" focusable="false"
+                                            role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                            <path fill="currentColor"
+                                                d="M440 64H336l-33.6-44.8A48 48 0 0 0 264 0h-80a48 48 0 0 0-38.4 19.2L112 64H8a8 8 0 0 0-8 8v16a8 8 0 0 0 8 8h18.9l33.2 372.3a48 48 0 0 0 47.8 43.7h232.2a48 48 0 0 0 47.8-43.7L421.1 96H440a8 8 0 0 0 8-8V72a8 8 0 0 0-8-8zM171.2 38.4A16.1 16.1 0 0 1 184 32h80a16.1 16.1 0 0 1 12.8 6.4L296 64H152zm184.8 427a15.91 15.91 0 0 1-15.9 14.6H107.9A15.91 15.91 0 0 1 92 465.4L59 96h330z">
+                                            </path>
+                                        </svg>&nbsp;&nbsp;Unassign
+                                    </div></td>
+                            </tr>`
+
     element.closest('table').querySelector('tbody').insertAdjacentHTML('beforeend', newRow)
 
 }
@@ -967,9 +1044,9 @@ async function editAssessment(key, isvisible) {
     document.querySelectorAll('#resources tbody').forEach(e => e.innerHTML = '')
     //update resources / documents
     data.Resources.forEach(e => {
-        addResource(document.querySelector(`#resources .${e.Role} .cmd.add-row`), e.Reference, e.Title)
+        addResource(document.querySelector(`#resources .${e.Role} .cmd.add-row`), e.Reference, e.Title, e.URL, e.uuid)
     })
-    setReferencedDocument(data.Resources)
+    setReferencedDocument(data.Resources, valsToUse.flatMap(f => f.refdocs))
 
     document.querySelectorAll("[data-element] .state-selector").forEach(m => {
         const section = m.closest('.section')
@@ -983,6 +1060,13 @@ async function editAssessment(key, isvisible) {
         section.querySelectorAll('.findings [data-property]').forEach(e => {
             e.value = thisValueObj[e.dataset.property] ?? ''
         })
+        //set reference documents
+        section.querySelector('.refdocs tbody').innerHTML= ''
+        for (const r of thisValueObj.refdocs) {
+            const doc = data.Resources.find(f => f.Role == 'documents' && f.uuid == r)
+            addReferenceDocument(section.querySelector('.refdocs table'), r, doc.Reference, doc.Title, doc.URL)
+        }
+        //set rating
         m.querySelectorAll('td').forEach(t => {
             t.classList.toggle('selected', t.cellIndex == thisValue)
         })
