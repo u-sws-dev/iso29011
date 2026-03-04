@@ -1131,6 +1131,36 @@
             })
 
 
+            function checkYPosition(currentY, doc, totalPagesExp, forceHeader) {
+                //check if we are nearing page bottom and should move to next page
+                let newY = currentY
+                if (currentY > 550) {
+                    doc.addPage()
+                    newY = 50
+                }
+                if (currentY != newY || forceHeader) {
+                    // Header
+                    doc.setFontSize(12)
+                    doc.setTextColor("#000")
+                    const pageSize = doc.internal.pageSize
+                    const pageHeight = pageSize.getHeight()
+                    const pageWidth = pageSize.getWidth()
+                    const pageCentre = pageWidth / 2
+                    const pageLeft = 10
+                    const pageRight = pageWidth - 20
+                    doc.addImage(document.querySelector('.logo'), 'PNG', pageLeft + 10, 12, 26, 26)
+                    doc.text('ISO 29502 Assessment Tool', pageCentre, 25, 'center')
+                    doc.text('SUMMARY REPORT', pageCentre, 40, 'center')
+                    // Footer
+                    doc.setFontSize(6)
+                    let str = `Generated ${Date().toString()}`
+                    doc.text(str, pageLeft + 10, pageHeight - 10)
+                    str = `Page ${doc.internal.getNumberOfPages()} of ${totalPagesExp}`
+                    doc.text(str, pageRight - 30, pageHeight - 10)
+                }
+                return newY
+            }
+
             async function PDF(key, ref) {
 
                 await editAssessment(key, false)
@@ -1144,9 +1174,9 @@
                 })
 
                 const totalPagesExp = '{total_pages_count_string}'
+                let pageAddedByTable = false
 
                 let lastY = 55
-
                 doc.setFontSize(7)
                 doc.setTextColor("#e3000f")
                 doc.text('ASSESSMENT TERMS', 10, lastY)
@@ -1155,6 +1185,7 @@
                 let bodyStyle = { lineColor: "#006bb7", lineWidth: 0.1, fontSize: 6 }
 
                 lastY += 5
+                lastY = checkYPosition(lastY, doc, totalPagesExp, true)
                 doc.autoTable({
                     head: [
                         [
@@ -1186,32 +1217,21 @@
                         '3': { cellWidth: 135 },
                         '4': { cellWidth: 140 }
                     },
-                    didDrawPage: data => {
-                        // Header
-                        doc.setFontSize(12)
-                        doc.setTextColor("#000")
-                        const pageSize = doc.internal.pageSize
-                        const pageHeight = pageSize.getHeight()
-                        const pageWidth = pageSize.getWidth()
-                        const pageCentre = pageWidth / 2
-                        const pageLeft = data.settings.margin.right
-                        const pageRight = pageWidth - data.settings.margin.left - data.settings.margin.right
-                        doc.addImage(document.querySelector('.logo'), 'PNG', pageLeft + 10, 12, 26, 26)
-                        doc.text('ISO 29502 Assessment Tool', pageCentre, 20, 'center')
-                        doc.text('SUMMARY REPORT', pageCentre, 35, 'center')
-                        // Footer
-                        doc.setFontSize(6)
-                        let str = `Generated ${Date().toString()}`
-                        doc.text(str, pageLeft + 10, pageHeight - 10)
-                        str = `Page ${doc.internal.getNumberOfPages()} of ${totalPagesExp}`
-                        doc.text(str, pageRight - 30, pageHeight - 10)
+                    didDrawPage: function (data) {
+                        if (data.pageNumber > 1) {
+                            pageAddedByTable = true
+                        }
                     }
                 })
+                if (pageAddedByTable) {
+                    pageAddedByTable = false
+                    checkYPosition(0, doc, totalPagesExp, true)
+                }
 
                 headStyle = { textColor: "#000", fillColor: "#fff", lineColor: "#fff" }
                 doc.setFontSize(6)
 
-                lastY = doc.lastAutoTable.finalY + 10
+                lastY = checkYPosition(doc.lastAutoTable.finalY + 10, doc, totalPagesExp)
                 doc.setTextColor("#000")
                 doc.text('BACKGROUND', 10, lastY)
                 lastY += 2
@@ -1226,29 +1246,18 @@
                     rowPageBreak: 'avoid',
                     horizontalPageBreak: false,
                     columnStyles: { '0': { cellWidth: 425 } },
-                    didDrawPage: data => {
-                        // Header
-                        doc.setFontSize(12)
-                        doc.setTextColor("#000")
-                        const pageSize = doc.internal.pageSize
-                        const pageHeight = pageSize.getHeight()
-                        const pageWidth = pageSize.getWidth()
-                        const pageCentre = pageWidth / 2
-                        const pageLeft = data.settings.margin.right
-                        const pageRight = pageWidth - data.settings.margin.left - data.settings.margin.right
-                        doc.addImage(document.querySelector('.logo'), 'PNG', pageLeft + 10, 12, 26, 26)
-                        doc.text('ISO 29502 Assessment Tool', pageCentre, 20, 'center')
-                        doc.text('SUMMARY REPORT', pageCentre, 35, 'center')
-                        // Footer
-                        doc.setFontSize(6)
-                        let str = `Generated ${Date().toString()}`
-                        doc.text(str, pageLeft + 10, pageHeight - 10)
-                        str = `Page ${doc.internal.getNumberOfPages()} of ${totalPagesExp}`
-                        doc.text(str, pageRight - 30, pageHeight - 10)
+                    didDrawPage: function (data) {
+                        if (data.pageNumber > 1) {
+                            pageAddedByTable = true
+                        }
                     }
                 })
+                if (pageAddedByTable) {
+                    pageAddedByTable = false
+                    checkYPosition(0, doc, totalPagesExp, true)
+                }
 
-                lastY = doc.lastAutoTable.finalY + 10
+                lastY = checkYPosition(doc.lastAutoTable.finalY + 10, doc, totalPagesExp)
                 doc.text('SCOPE', 10, lastY)
                 lastY += 2
                 doc.autoTable({
@@ -1262,29 +1271,18 @@
                     rowPageBreak: 'avoid',
                     horizontalPageBreak: false,
                     columnStyles: { '0': { cellWidth: 425 } },
-                    didDrawPage: data => {
-                        // Header
-                        doc.setFontSize(12)
-                        doc.setTextColor("#000")
-                        const pageSize = doc.internal.pageSize
-                        const pageHeight = pageSize.getHeight()
-                        const pageWidth = pageSize.getWidth()
-                        const pageCentre = pageWidth / 2
-                        const pageLeft = data.settings.margin.right
-                        const pageRight = pageWidth - data.settings.margin.left - data.settings.margin.right
-                        doc.addImage(document.querySelector('.logo'), 'PNG', pageLeft + 10, 12, 26, 26)
-                        doc.text('ISO 29502 Assessment Tool', pageCentre, 20, 'center')
-                        doc.text('SUMMARY REPORT', pageCentre, 35, 'center')
-                        // Footer
-                        doc.setFontSize(6)
-                        let str = `Generated ${Date().toString()}`
-                        doc.text(str, pageLeft + 10, pageHeight - 10)
-                        str = `Page ${doc.internal.getNumberOfPages()} of ${totalPagesExp}`
-                        doc.text(str, pageRight - 30, pageHeight - 10)
+                    didDrawPage: function (data) {
+                        if (data.pageNumber > 1) {
+                            pageAddedByTable = true
+                        }
                     }
                 })
+                if (pageAddedByTable) {
+                    pageAddedByTable = false
+                    checkYPosition(0, doc, totalPagesExp, true)
+                }
 
-                lastY = doc.lastAutoTable.finalY + 10
+                lastY = checkYPosition(doc.lastAutoTable.finalY + 10, doc, totalPagesExp)
                 doc.text('OBJECTIVES', 10, lastY)
                 lastY += 2
                 doc.autoTable({
@@ -1297,10 +1295,19 @@
                     styles: bodyStyle,
                     rowPageBreak: 'avoid',
                     horizontalPageBreak: false,
-                    columnStyles: { '0': { cellWidth: 425 } }
+                    columnStyles: { '0': { cellWidth: 425 } },
+                    didDrawPage: function (data) {
+                        if (data.pageNumber > 1) {
+                            pageAddedByTable = true
+                        }
+                    }
                 })
+                if (pageAddedByTable) {
+                    pageAddedByTable = false
+                    checkYPosition(0, doc, totalPagesExp, true)
+                }
 
-                lastY = doc.lastAutoTable.finalY + 10
+                lastY = checkYPosition(doc.lastAutoTable.finalY + 10, doc, totalPagesExp)
                 doc.text('METHODOLOGY', 10, lastY)
                 lastY += 2
                 doc.autoTable({
@@ -1313,11 +1320,20 @@
                     styles: bodyStyle,
                     rowPageBreak: 'avoid',
                     horizontalPageBreak: false,
-                    columnStyles: { '0': { cellWidth: 425 } }
+                    columnStyles: { '0': { cellWidth: 425 } },
+                    didDrawPage: function (data) {
+                        if (data.pageNumber > 1) {
+                            pageAddedByTable = true
+                        }
+                    }
                 })
+                if (pageAddedByTable) {
+                    pageAddedByTable = false
+                    checkYPosition(0, doc, totalPagesExp, true)
+                }
 
 
-                lastY = doc.lastAutoTable.finalY + 10
+                lastY = checkYPosition(doc.lastAutoTable.finalY + 10, doc, totalPagesExp)
                 doc.setFontSize(7)
                 doc.setTextColor("#e3000f")
                 doc.text('SUMMARY', 10, lastY)
@@ -1379,13 +1395,23 @@
                         '5': { cellWidth: 53, halign: 'right' },
                         '6': { cellWidth: 53, halign: 'right' },
                         '7': { cellWidth: 53, halign: 'right' }
+                    },
+                    didDrawPage: function (data) {
+                        if (data.pageNumber > 1) {
+                            pageAddedByTable = true
+                        }
                     }
                 })
+                if (pageAddedByTable) {
+                    pageAddedByTable = false
+                    checkYPosition(0, doc, totalPagesExp, true)
+                }
 
                 lastY += 40
                 let lastX = 15
                 let canvas = document.querySelector("#exec-summary [data-section='0']")
-                doc.addImage(canvas.toDataURL(), 'PNG', lastX, lastY, 90, 90)
+                let img = canvas.toDataURL()
+                doc.addImage(img, 'PNG', lastX, lastY, 90, 90)
 
                 lastX += 107
                 canvas = document.querySelector("#exec-summary [data-section='4']")
@@ -1399,7 +1425,7 @@
                 canvas = document.querySelector("#exec-summary [data-section='6']")
                 doc.addImage(canvas.toDataURL(), 'PNG', lastX, lastY, 90, 90)
 
-                lastY = doc.lastAutoTable.finalY
+                lastY = checkYPosition(doc.lastAutoTable.finalY, doc, totalPagesExp)
                 doc.autoTable({
                     head: [
                         [
@@ -1450,8 +1476,18 @@
                         '5': { cellWidth: 53, halign: 'right' },
                         '6': { cellWidth: 53, halign: 'right' },
                         '7': { cellWidth: 53, halign: 'right' }
+                    },
+                    didDrawPage: function (data) {
+                        if (data.pageNumber > 1) {
+                            pageAddedByTable = true
+                        }
                     }
                 })
+                if (pageAddedByTable) {
+                    pageAddedByTable = false
+                    checkYPosition(0, doc, totalPagesExp, true)
+                }
+
                 lastY += 35
                 lastX = 15
                 canvas = document.querySelector("#exec-summary [data-section='7']")
@@ -1469,7 +1505,7 @@
                 canvas = document.querySelector("#exec-summary [data-section='10']")
                 doc.addImage(canvas.toDataURL(), 'PNG', lastX, lastY, 90, 90)
 
-                lastY += 110
+                lastY = checkYPosition(doc.lastAutoTable.finalY + 10, doc, totalPagesExp)
                 doc.setTextColor("#000")
                 doc.text('EXECUTIVE SUMMARY', 10, lastY)
                 lastY += 2
@@ -1483,10 +1519,19 @@
                     styles: bodyStyle,
                     rowPageBreak: 'avoid',
                     horizontalPageBreak: false,
-                    columnStyles: { '0': { cellWidth: 425 } }
+                    columnStyles: { '0': { cellWidth: 425 } },
+                    didDrawPage: function (data) {
+                        if (data.pageNumber > 1) {
+                            pageAddedByTable = true
+                        }
+                    }
                 })
+                if (pageAddedByTable) {
+                    pageAddedByTable = false
+                    checkYPosition(0, doc, totalPagesExp, true)
+                }
 
-                lastY = doc.lastAutoTable.finalY + 10
+                lastY = checkYPosition(doc.lastAutoTable.finalY + 10, doc, totalPagesExp)
                 doc.setFontSize(7)
                 doc.setTextColor("#e3000f")
                 doc.text('FINDINGS / RATINGS', 10, lastY)
@@ -1517,29 +1562,18 @@
                         '0': { cellWidth: 375 },
                         '1': { cellWidth: 50, fillColor: "#e3000f", textColor: "#fff", halign: 'center' }
                     },
-                    didDrawPage: data => {
-                        // Header
-                        doc.setFontSize(12)
-                        doc.setTextColor("#000")
-                        const pageSize = doc.internal.pageSize
-                        const pageHeight = pageSize.getHeight()
-                        const pageWidth = pageSize.getWidth()
-                        const pageCentre = pageWidth / 2
-                        const pageLeft = data.settings.margin.right
-                        const pageRight = pageWidth - data.settings.margin.left - data.settings.margin.right
-                        doc.addImage(document.querySelector('.logo'), 'PNG', pageLeft + 10, 12, 26, 26)
-                        doc.text('ISO 29502 Assessment Tool', pageCentre, 20, 'center')
-                        doc.text('SUMMARY REPORT', pageCentre, 35, 'center')
-                        // Footer
-                        doc.setFontSize(6)
-                        let str = `Generated ${Date().toString()}`
-                        doc.text(str, pageLeft + 10, pageHeight - 10)
-                        str = `Page ${doc.internal.getNumberOfPages()} of ${totalPagesExp}`
-                        doc.text(str, pageRight - 30, pageHeight - 10)
+                    didDrawPage: function (data) {
+                        if (data.pageNumber > 1) {
+                            pageAddedByTable = true
+                        }
                     }
                 })
+                if (pageAddedByTable) {
+                    pageAddedByTable = false
+                    checkYPosition(0, doc, totalPagesExp, true)
+                }
 
-                lastY = doc.lastAutoTable.finalY
+                lastY = checkYPosition(doc.lastAutoTable.finalY, doc, totalPagesExp)
                 doc.autoTable({
                     head: [],
                     body: [
@@ -1562,29 +1596,18 @@
                         '0': { cellWidth: 375 },
                         '1': { cellWidth: 50, fillColor: "#e3000f", textColor: "#fff", halign: 'center' }
                     },
-                    didDrawPage: data => {
-                        // Header
-                        doc.setFontSize(12)
-                        doc.setTextColor("#000")
-                        const pageSize = doc.internal.pageSize
-                        const pageHeight = pageSize.getHeight()
-                        const pageWidth = pageSize.getWidth()
-                        const pageCentre = pageWidth / 2
-                        const pageLeft = data.settings.margin.right
-                        const pageRight = pageWidth - data.settings.margin.left - data.settings.margin.right
-                        doc.addImage(document.querySelector('.logo'), 'PNG', pageLeft + 10, 12, 26, 26)
-                        doc.text('ISO 29502 Assessment Tool', pageCentre, 20, 'center')
-                        doc.text('SUMMARY REPORT', pageCentre, 35, 'center')
-                        // Footer
-                        doc.setFontSize(6)
-                        let str = `Generated ${Date().toString()}`
-                        doc.text(str, pageLeft + 10, pageHeight - 10)
-                        str = `Page ${doc.internal.getNumberOfPages()} of ${totalPagesExp}`
-                        doc.text(str, pageRight - 30, pageHeight - 10)
+                    didDrawPage: function (data) {
+                        if (data.pageNumber > 1) {
+                            pageAddedByTable = true
+                        }
                     }
                 })
+                if (pageAddedByTable) {
+                    pageAddedByTable = false
+                    checkYPosition(0, doc, totalPagesExp, true)
+                }
 
-                lastY = doc.lastAutoTable.finalY
+                lastY = checkYPosition(doc.lastAutoTable.finalY, doc, totalPagesExp)
                 doc.autoTable({
                     head: [],
                     body: [
@@ -1609,29 +1632,19 @@
                         '0': { cellWidth: 375 },
                         '1': { cellWidth: 50, fillColor: "#e3000f", textColor: "#fff", halign: 'center' }
                     },
-                    didDrawPage: data => {
-                        // Header
-                        doc.setFontSize(12)
-                        doc.setTextColor("#000")
-                        const pageSize = doc.internal.pageSize
-                        const pageHeight = pageSize.getHeight()
-                        const pageWidth = pageSize.getWidth()
-                        const pageCentre = pageWidth / 2
-                        const pageLeft = data.settings.margin.right
-                        const pageRight = pageWidth - data.settings.margin.left - data.settings.margin.right
-                        doc.addImage(document.querySelector('.logo'), 'PNG', pageLeft + 10, 12, 26, 26)
-                        doc.text('ISO 29502 Assessment Tool', pageCentre, 20, 'center')
-                        doc.text('SUMMARY REPORT', pageCentre, 35, 'center')
-                        // Footer
-                        doc.setFontSize(6)
-                        let str = `Generated ${Date().toString()}`
-                        doc.text(str, pageLeft + 10, pageHeight - 10)
-                        str = `Page ${doc.internal.getNumberOfPages()} of ${totalPagesExp}`
-                        doc.text(str, pageRight - 30, pageHeight - 10)
+                    didDrawPage: function (data) {
+                        if (data.pageNumber > 1) {
+                            pageAddedByTable = true
+                        }
                     }
                 })
+                if (pageAddedByTable) {
+                    pageAddedByTable = false
+                    checkYPosition(0, doc, totalPagesExp, true)
+                }
 
-                lastY = doc.lastAutoTable.finalY
+
+                lastY = checkYPosition(doc.lastAutoTable.finalY, doc, totalPagesExp)
                 doc.autoTable({
                     head: [],
                     body: [
@@ -1672,29 +1685,18 @@
                         '0': { cellWidth: 375 },
                         '1': { cellWidth: 50, fillColor: "#e3000f", textColor: "#fff", halign: 'center' }
                     },
-                    didDrawPage: data => {
-                        // Header
-                        doc.setFontSize(12)
-                        doc.setTextColor("#000")
-                        const pageSize = doc.internal.pageSize
-                        const pageHeight = pageSize.getHeight()
-                        const pageWidth = pageSize.getWidth()
-                        const pageCentre = pageWidth / 2
-                        const pageLeft = data.settings.margin.right
-                        const pageRight = pageWidth - data.settings.margin.left - data.settings.margin.right
-                        doc.addImage(document.querySelector('.logo'), 'PNG', pageLeft + 10, 12, 26, 26)
-                        doc.text('ISO 29502 Assessment Tool', pageCentre, 20, 'center')
-                        doc.text('SUMMARY REPORT', pageCentre, 35, 'center')
-                        // Footer
-                        doc.setFontSize(6)
-                        let str = `Generated ${Date().toString()}`
-                        doc.text(str, pageLeft + 10, pageHeight - 10)
-                        str = `Page ${doc.internal.getNumberOfPages()} of ${totalPagesExp}`
-                        doc.text(str, pageRight - 30, pageHeight - 10)
+                    didDrawPage: function (data) {
+                        if (data.pageNumber > 1) {
+                            pageAddedByTable = true
+                        }
                     }
                 })
+                if (pageAddedByTable) {
+                    pageAddedByTable = false
+                    checkYPosition(0, doc, totalPagesExp, true)
+                }
 
-                lastY = doc.lastAutoTable.finalY
+                lastY = checkYPosition(doc.lastAutoTable.finalY, doc, totalPagesExp)
                 doc.autoTable({
                     head: [],
                     body: [
@@ -1721,30 +1723,10 @@
                     columnStyles: {
                         '0': { cellWidth: 375 },
                         '1': { cellWidth: 50, fillColor: "#e3000f", textColor: "#fff", halign: 'center' }
-                    },
-                    didDrawPage: data => {
-                        // Header
-                        doc.setFontSize(12)
-                        doc.setTextColor("#000")
-                        const pageSize = doc.internal.pageSize
-                        const pageHeight = pageSize.getHeight()
-                        const pageWidth = pageSize.getWidth()
-                        const pageCentre = pageWidth / 2
-                        const pageLeft = data.settings.margin.right
-                        const pageRight = pageWidth - data.settings.margin.left - data.settings.margin.right
-                        doc.addImage(document.querySelector('.logo'), 'PNG', pageLeft + 10, 12, 26, 26)
-                        doc.text('ISO 29502 Assessment Tool', pageCentre, 20, 'center')
-                        doc.text('SUMMARY REPORT', pageCentre, 35, 'center')
-                        // Footer
-                        doc.setFontSize(6)
-                        let str = `Generated ${Date().toString()}`
-                        doc.text(str, pageLeft + 10, pageHeight - 10)
-                        str = `Page ${doc.internal.getNumberOfPages()} of ${totalPagesExp}`
-                        doc.text(str, pageRight - 30, pageHeight - 10)
                     }
                 })
 
-                lastY = doc.lastAutoTable.finalY
+                lastY = checkYPosition(doc.lastAutoTable.finalY, doc, totalPagesExp)
                 doc.autoTable({
                     head: [],
                     body: [
@@ -1767,29 +1749,18 @@
                         '0': { cellWidth: 375 },
                         '1': { cellWidth: 50, fillColor: "#e3000f", textColor: "#fff", halign: 'center' }
                     },
-                    didDrawPage: data => {
-                        // Header
-                        doc.setFontSize(12)
-                        doc.setTextColor("#000")
-                        const pageSize = doc.internal.pageSize
-                        const pageHeight = pageSize.getHeight()
-                        const pageWidth = pageSize.getWidth()
-                        const pageCentre = pageWidth / 2
-                        const pageLeft = data.settings.margin.right
-                        const pageRight = pageWidth - data.settings.margin.left - data.settings.margin.right
-                        doc.addImage(document.querySelector('.logo'), 'PNG', pageLeft + 10, 12, 26, 26)
-                        doc.text('ISO 29502 Assessment Tool', pageCentre, 20, 'center')
-                        doc.text('SUMMARY REPORT', pageCentre, 35, 'center')
-                        // Footer
-                        doc.setFontSize(6)
-                        let str = `Generated ${Date().toString()}`
-                        doc.text(str, pageLeft + 10, pageHeight - 10)
-                        str = `Page ${doc.internal.getNumberOfPages()} of ${totalPagesExp}`
-                        doc.text(str, pageRight - 30, pageHeight - 10)
+                    didDrawPage: function (data) {
+                        if (data.pageNumber > 1) {
+                            pageAddedByTable = true
+                        }
                     }
                 })
+                if (pageAddedByTable) {
+                    pageAddedByTable = false
+                    checkYPosition(0, doc, totalPagesExp, true)
+                }
 
-                lastY = doc.lastAutoTable.finalY
+                lastY = checkYPosition(doc.lastAutoTable.finalY, doc, totalPagesExp)
                 doc.autoTable({
                     head: [],
                     body: [
@@ -1812,31 +1783,20 @@
                         '0': { cellWidth: 375 },
                         '1': { cellWidth: 50, fillColor: "#e3000f", textColor: "#fff", halign: 'center' }
                     },
-                    didDrawPage: data => {
-                        // Header
-                        doc.setFontSize(12)
-                        doc.setTextColor("#000")
-                        const pageSize = doc.internal.pageSize
-                        const pageHeight = pageSize.getHeight()
-                        const pageWidth = pageSize.getWidth()
-                        const pageCentre = pageWidth / 2
-                        const pageLeft = data.settings.margin.right
-                        const pageRight = pageWidth - data.settings.margin.left - data.settings.margin.right
-                        doc.addImage(document.querySelector('.logo'), 'PNG', pageLeft + 10, 12, 26, 26)
-                        doc.text('ISO 29502 Assessment Tool', pageCentre, 20, 'center')
-                        doc.text('SUMMARY REPORT', pageCentre, 35, 'center')
-                        // Footer
-                        doc.setFontSize(6)
-                        let str = `Generated ${Date().toString()}`
-                        doc.text(str, pageLeft + 10, pageHeight - 10)
-                        str = `Page ${doc.internal.getNumberOfPages()} of ${totalPagesExp}`
-                        doc.text(str, pageRight - 30, pageHeight - 10)
+                    didDrawPage: function (data) {
+                        if (data.pageNumber > 1) {
+                            pageAddedByTable = true
+                        }
                     }
                 })
+                if (pageAddedByTable) {
+                    pageAddedByTable = false
+                    checkYPosition(0, doc, totalPagesExp, true)
+                }
 
                 doc.putTotalPages(totalPagesExp)
 
-                doc.save('ISO 29502 Assessment Tool Summary Report.pdf')
+                doc.save(`ISO 29502 Assessment Tool Summary Report - ${ref.toUpperCase()}.pdf`)
             }
 
         </script>
